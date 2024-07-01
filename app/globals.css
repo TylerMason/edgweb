@@ -2,15 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-
-
-
 
 @layer utilities {
   .text-balance {
@@ -31,3 +22,13 @@
   cursor: pointer;
 }
 
+/* globals.css */
+#PamonaAve1676,
+#PamonaAve1664,
+#PamonaAve1666,
+#PamonaAve1668,
+#PamonaAve1670,
+#PamonaAve1672,
+#PamonaAve1674 {
+  fill: green;
+}
