@@ -5,8 +5,10 @@ import Panzoom from 'panzoom';
 
 const PanZoomSVG = () => {
     const panZoomRef = useRef(null);
+    const elementConfigs = useRef({});
 
     useEffect(() => {
+        // Fetch the SVG
         fetch('map.svg')
             .then(response => response.text())
             .then(svg => {
@@ -14,16 +16,34 @@ const PanZoomSVG = () => {
                 const svgElement = panZoomRef.current.querySelector('svg');
                 const panzoomInstance = Panzoom(svgElement, {
                     maxScale: 4,
-                    minScale: 0.5,
+                    minScale: 1,
                     contain: 'outside'
                 });
 
-               
+                // Fetch the JSON configuration
+                fetch('config.json')
+                    .then(response => response.json())
+                    .then(config => {
+                        elementConfigs.current = config.elements.reduce((acc, elementConfig) => {
+                            acc[elementConfig.id] = elementConfig;
+                            return acc;
+                        }, {});
+
+                        config.elements.forEach(elementConfig => {
+                            const targetElement = svgElement.querySelector(`#${elementConfig.id}`);
+                            if (targetElement) {
+
+                                // Add click event listener
+                                targetElement.addEventListener('click', () => {
+                                    window.open(elementConfig.url, '_blank');
+                                });
+                            }
+                        });
+                    });
             });
     }, []);
 
-    return <div ref={panZoomRef} style={{ width: '100%', height: '1000px', overflow: 'hidden' }} />;
+    return <div ref={panZoomRef} style={{ width: '100vh', height: '100vh', overflow: 'hidden' }} />;
 };
 
 export default PanZoomSVG;
-
