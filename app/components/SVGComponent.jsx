@@ -43,7 +43,13 @@ const PanZoomSVG = () => {
             });
     }, []);
 
-    return <div ref={panZoomRef} style={{ width: '100vh', height: '100vh', overflow: 'hidden' }} />;
+    return (
+        <div
+          ref={panZoomRef}
+          className="w-full h-full overflow-hidden border border-lightgray rounded-lg"
+        />
+      );
+      
 };
 
 export default PanZoomSVG;
