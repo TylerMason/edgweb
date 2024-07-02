@@ -10,12 +10,13 @@ export async function POST(req) {
   const { username, password } = await req.json();
 
   const user = await User.findOne({ username });
+
   if (user && await bcrypt.compare(password, user.password)) {
     const token = jwt.sign({ username: user.username }, SECRET_KEY, { expiresIn: '1h' });
 
-    return new Response(JSON.stringify({ success: true, token }), {
+    return new Response(JSON.stringify({ success: true }), {
       status: 200,
-      headers: { 'Set-Cookie': `token=${token}; HttpOnly; Path=/` }
+      headers: { 'Set-Cookie': `auth=${token}; HttpOnly; Path=/` }
     });
   } else {
     return new Response(JSON.stringify({ success: false }), { status: 401 });

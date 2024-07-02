@@ -1,7 +1,6 @@
 'use client';
 
-// app/components/withAuth.js
-import { useRouter } from 'next/router';
+import { useRouter } from 'next/navigation';
 import { useEffect } from 'react';
 import jwt from 'jsonwebtoken';
 
@@ -18,11 +17,11 @@ const withAuth = (WrappedComponent) => {
       }
 
       try {
-        jwt.verify(token, process.env.SECRET_KEY);
+        jwt.verify(token, process.env.NEXT_PUBLIC_SECRET_KEY);
       } catch (error) {
         router.push('/login');
       }
-    }, []);
+    }, [router]);
 
     return <WrappedComponent {...props} />;
   };

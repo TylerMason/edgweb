@@ -20,8 +20,11 @@ export default function Login() {
     });
 
     const data = await res.json();
+
+    console.log(data)
     if (data.success) {
-      router.push('/protected'); // Redirect to the protected page
+      console.log("DATA WAS A SUCCESS")
+      router.push('/');
     } else {
       setError('Invalid credentials');
     }

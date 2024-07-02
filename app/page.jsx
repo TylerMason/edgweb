@@ -1,9 +1,9 @@
 import Image from "next/image";
 import PanZoomSvg from "./components/SVGComponent";
 import Categories from "./components/categories";
-import withAuth from './components/withAuth'; // Correct the import path
+import withAuth from "./components/withAuth";
 
-function ProtectedPage() {
+function HomePage() {
   return (
     <main className="flex flex-col min-h-screen items-center justify-between bg-slate-200">
       <div className="flex flex-col lg:flex-row w-full h-screen">
@@ -21,4 +21,4 @@ function ProtectedPage() {
   );
 }
 
-export default withAuth(ProtectedPage);
+export default withAuth(HomePage);
