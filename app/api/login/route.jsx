@@ -1,23 +1,16 @@
 import bcrypt from 'bcrypt';
-import jwt from 'jsonwebtoken';
-import dbConnect from '../../lib/mongodb';
-import User from '../../models/User';
-
-const SECRET_KEY = process.env.SECRET_KEY;
+import clientPromise from '../../lib/mongodb';
 
 export async function POST(req) {
-  await dbConnect();
+  const client = await clientPromise;
+  const db = client.db();
+  
   const { username, password } = await req.json();
-
-  const user = await User.findOne({ username });
-
+  
+  const user = await db.collection('users').findOne({ username });
+  
   if (user && await bcrypt.compare(password, user.password)) {
-    const token = jwt.sign({ username: user.username }, SECRET_KEY, { expiresIn: '1h' });
-
-    return new Response(JSON.stringify({ success: true }), {
-      status: 200,
-      headers: { 'Set-Cookie': `auth=${token}; HttpOnly; Path=/` }
-    });
+    return new Response(JSON.stringify({ success: true }), { status: 200 });
   } else {
     return new Response(JSON.stringify({ success: false }), { status: 401 });
   }

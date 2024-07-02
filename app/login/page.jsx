@@ -1,7 +1,9 @@
+// app/login/page.jsx
 'use client';
 
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
+import { signIn } from 'next-auth/react';
 
 export default function Login() {
   const [username, setUsername] = useState('');
@@ -11,19 +13,13 @@ export default function Login() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const res = await fetch('/api/login', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({ username, password }),
+    const res = await signIn('credentials', {
+      redirect: false,
+      username,
+      password
     });
 
-    const data = await res.json();
-
-    console.log(data)
-    if (data.success) {
-      console.log("DATA WAS A SUCCESS")
+    if (res.ok) {
       router.push('/');
     } else {
       setError('Invalid credentials');
