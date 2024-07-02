@@ -1,7 +1,7 @@
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
-import dbConnect from '../../../lib/mongodb';
-import User from '../../../models/User';
+import dbConnect from '../../lib/mongodb';
+import User from '../../models/User';
 
 const SECRET_KEY = process.env.SECRET_KEY;
 

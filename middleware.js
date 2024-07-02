@@ -1,23 +1,22 @@
+// middleware.js
 import { NextResponse } from 'next/server';
 import jwt from 'jsonwebtoken';
 
-const SECRET_KEY = process.env.SECRET_KEY;
+export async function middleware(req) {
+  const token = req.cookies.get('auth');
 
-export function middleware(req) {
-  const token = req.cookies.get('token');
-
-  if (!token && req.nextUrl.pathname !== '/login') {
+  if (!token) {
     return NextResponse.redirect(new URL('/login', req.url));
   }
 
   try {
-    jwt.verify(token, SECRET_KEY);
+    jwt.verify(token, process.env.NEXT_PUBLIC_SECRET_KEY);
     return NextResponse.next();
-  } catch (error) {
+  } catch (err) {
     return NextResponse.redirect(new URL('/login', req.url));
   }
 }
 
 export const config = {
-  matcher: ['/protected/:path*'],
+  matcher: ['/'], // Protecting the root and all routes
 };
