@@ -1,0 +1,31 @@
+{
+  "PamonaAve1664": {
+    "windows_doors": {
+      "url": "https://example.com/pdf/PamonaAve1664_windows_doors.pdf",
+      "severity": 3
+    },
+    "stucco": {
+      "url": "https://example.com/pdf/PamonaAve1664_stucco.pdf",
+      "severity": 2
+    },
+    "deck": {
+      "url": "https://example.com/pdf/PamonaAve1664_deck.pdf",
+      "severity": 1
+    },
+    "patio_wall": {
+      "url": "https://example.com/pdf/PamonaAve1664_patio_wall.pdf",
+      "severity": 1
+    }
+  },
+  "PamonaAve1666": {
+    "stucco": {
+      "url": "https://example.com/pdf/PamonaAve1666_stucco.pdf",
+      "severity": 2
+    },
+    "roof": {
+      "url": "https://example.com/pdf/PamonaAve1666_roof.pdf",
+      "severity": 3
+    }
+  }
+  
+}

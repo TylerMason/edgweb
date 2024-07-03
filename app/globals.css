@@ -8,27 +8,3 @@
     text-wrap: balance;
   }
 }
-
-/* globals.css */
-#PamonaAve1676:hover,
-#PamonaAve1664:hover,
-#PamonaAve1666:hover,
-#PamonaAve1668:hover,
-#PamonaAve1670:hover,
-#PamonaAve1672:hover,
-#PamonaAve1674:hover {
-  fill: lightblue;
-  transition: fill 0.3s;
-  cursor: pointer;
-}
-
-/* globals.css */
-#PamonaAve1676,
-#PamonaAve1664,
-#PamonaAve1666,
-#PamonaAve1668,
-#PamonaAve1670,
-#PamonaAve1672,
-#PamonaAve1674 {
-  fill: green;
-}
