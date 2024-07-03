@@ -1,4 +1,3 @@
-// app/login/page.jsx
 'use client';
 
 import { useState } from 'react';
@@ -16,11 +15,12 @@ export default function Login() {
     const res = await signIn('credentials', {
       redirect: false,
       username,
-      password
+      password,
+      callbackUrl: '/' // Redirect to the homepage or any other page after sign-in
     });
 
     if (res.ok) {
-      router.push('/');
+      router.push(res.url);
     } else {
       setError('Invalid credentials');
     }

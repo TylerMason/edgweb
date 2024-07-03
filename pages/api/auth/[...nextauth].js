@@ -9,6 +9,10 @@ export default NextAuth({
   providers: [
     CredentialsProvider({
       name: 'Credentials',
+      credentials: {
+        username: { label: "Username", type: "text" },
+        password: { label: "Password", type: "password" }
+      },
       async authorize(credentials) {
         const client = await clientPromise;
         const db = client.db();
@@ -41,4 +45,8 @@ export default NextAuth({
     }
   },
   secret: process.env.SECRET_KEY,
+  pages: {
+    signIn: '/login',
+    error: '/login', // Redirect to login page on error
+  }
 });
