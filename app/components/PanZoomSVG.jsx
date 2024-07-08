@@ -56,7 +56,8 @@ const PanZoomSVG = ({ selectedCategory }) => {
         const element = svgElement.querySelector(`#${unitId}`);
         if (element) {
           const severityClass = getSeverityClass(severity);
-          element.classList.add(severityClass, `hover:${severityClass.replace('fill-', 'fill-')}-600`);
+          const hoverClass = getHoverClass(severity);
+          element.classList.add(severityClass, hoverClass, 'cursor-pointer', 'transition-colors', 'duration-300');
           element.onclick = () => window.open(url, '_blank');
         }
       }
@@ -71,6 +72,19 @@ const PanZoomSVG = ({ selectedCategory }) => {
         return 'fill-orange-500';
       case 3:
         return 'fill-red-500';
+      default:
+        return '';
+    }
+  };
+
+  const getHoverClass = (severity) => {
+    switch (severity) {
+      case 1:
+        return 'hover:fill-yellow-700';
+      case 2:
+        return 'hover:fill-orange-700';
+      case 3:
+        return 'hover:fill-red-700';
       default:
         return '';
     }

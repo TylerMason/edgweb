@@ -1,31 +1,188 @@
 {
-  "PamonaAve1664": {
+  "TopangaXXXX": {
     "windows_doors": {
-      "url": "https://example.com/pdf/PamonaAve1664_windows_doors.pdf",
+      "url": "https://example.com/pdf/TopangaXXXX_windows_doors.pdf",
       "severity": 3
     },
     "stucco": {
-      "url": "https://example.com/pdf/PamonaAve1664_stucco.pdf",
+      "url": "https://example.com/pdf/TopangaXXXX_stucco.pdf",
       "severity": 2
     },
     "deck": {
-      "url": "https://example.com/pdf/PamonaAve1664_deck.pdf",
+      "url": "https://example.com/pdf/TopangaXXXX_deck.pdf",
+      "severity": 1
+    },
+    "roof": {
+      "url": "https://example.com/pdf/TopangaXXXX_roof.pdf",
+      "severity": 1
+    },
+    "soil": {
+      "url": "https://example.com/pdf/TopangaXXXX_soil.pdf",
       "severity": 1
     },
     "patio_wall": {
-      "url": "https://example.com/pdf/PamonaAve1664_patio_wall.pdf",
+      "url": "https://example.com/pdf/TopangaXXXX_patio_wall.pdf",
+      "severity": 1
+    },
+    "prior_water_intrusion": {
+      "url": "https://example.com/pdf/TopangaXXXX_prior_water_intrusion.pdf",
       "severity": 1
     }
   },
-  "PamonaAve1666": {
-    "stucco": {
-      "url": "https://example.com/pdf/PamonaAve1666_stucco.pdf",
-      "severity": 2
-    },
-    "roof": {
-      "url": "https://example.com/pdf/PamonaAve1666_roof.pdf",
+  "Monarch1686": {
+    "patio_wall": {
+      "url": "https://drive.google.com/file/d/14ofgNnZ8OtIZGQDyTob3G8DDwS7EkDPN/view?usp=sharing",
       "severity": 3
     }
+  },
+  "Monarch1688": {
+    "windows_doors": {
+      "url": "https://drive.google.com/file/d/12s0hl29LRF7r777RkXTNrW-D_KxCFFY-/view?usp=sharing",
+      "severity": 1
+    }
+  },
+  "Monarch1682": {
+    "deck": {
+      "url": "https://drive.google.com/file/d/1BqQz_0GCgCoO03scNP71MFXz27vaMn-2/view?usp=sharing",
+      "severity": 3
+    }
+  },
+  "Monarch1683": {
+    "windows_doors": {
+      "url": "https://drive.google.com/file/d/1M6KyunVzYlYcZ7aF2d9NbXjr4xaDGDlB/view?usp=sharing",
+      "severity": 2
+    }
+  },
+  "Monarch1681": {
+    "windows_doors": {
+      "url": "https://drive.google.com/file/d/16YOsbOD-bc91vb4kUuINsCc4Jzwknmlc/view?usp=sharing",
+      "severity": 2
+    }
+  },
+  "GrandviewXXXX": {
+    "windows_doors": {
+      "url": "https://example.com/pdf/GrandViewXXXX_windows_doors.pdf",
+      "severity": 3
+    },
+    "stucco": {
+      "url": "https://example.com/pdf/GrandViewXXXX_stucco.pdf",
+      "severity": 2
+    },
+    "deck": {
+      "url": "https://example.com/pdf/GrandViewXXXX_deck.pdf",
+      "severity": 1
+    },
+    "roof": {
+      "url": "https://example.com/pdf/GrandViewXXXX_roof.pdf",
+      "severity": 1
+    },
+    "soil": {
+      "url": "https://example.com/pdf/GrandViewXXXX_soil.pdf",
+      "severity": 1
+    },
+    "patio_wall": {
+      "url": "https://example.com/pdf/GrandViewXXXX_patio_wall.pdf",
+      "severity": 1
+    },
+    "prior_water_intrusion": {
+      "url": "https://example.com/pdf/GrandViewXXXX_prior_water_intrusion.pdf",
+      "severity": 1
+    }
+  },
+  "MalibuXXXX": {
+    "windows_doors": {
+      "url": "https://example.com/pdf/MalibuXXXX_windows_doors.pdf",
+      "severity": 3
+    },
+    "stucco": {
+      "url": "https://example.com/pdf/MalibuXXXX_stucco.pdf",
+      "severity": 2
+    },
+    "deck": {
+      "url": "https://example.com/pdf/MalibuXXXX_deck.pdf",
+      "severity": 1
+    },
+    "roof": {
+      "url": "https://example.com/pdf/MalibuXXXX_roof.pdf",
+      "severity": 1
+    },
+    "soil": {
+      "url": "https://example.com/pdf/MalibuXXXX_soil.pdf",
+      "severity": 1
+    },
+    "patio_wall": {
+      "url": "https://example.com/pdf/MalibuXXXX_patio_wall.pdf",
+      "severity": 1
+    },
+    "prior_water_intrusion": {
+      "url": "https://example.com/pdf/MalibuXXXX_prior_water_intrusion.pdf",
+      "severity": 1
+    }
+  },
+  "WedgeXXXX": {
+    "windows_doors": {
+      "url": "https://example.com/pdf/WedgeXXXX_windows_doors.pdf",
+      "severity": 3
+    },
+    "stucco": {
+      "url": "https://example.com/pdf/WedgeXXXX_stucco.pdf",
+      "severity": 2
+    },
+    "deck": {
+      "url": "https://example.com/pdf/WedgeXXXX_deck.pdf",
+      "severity": 1
+    },
+    "roof": {
+      "url": "https://example.com/pdf/WedgeXXXX_roof.pdf",
+      "severity": 1
+    },
+    "soil": {
+      "url": "https://example.com/pdf/WedgeXXXX_soil.pdf",
+      "severity": 1
+    },
+    "patio_wall": {
+      "url": "https://example.com/pdf/WedgeXXXX_patio_wall.pdf",
+      "severity": 1
+    },
+    "prior_water_intrusion": {
+      "url": "https://example.com/pdf/WedgeXXXX_prior_water_intrusion.pdf",
+      "severity": 1
+    }
+  },
+  "DohenySt681": {
+    "stucco": {
+      "url": "https://drive.google.com/file/d/15M7WPaxfBCdMZHQ6gwXbFdzVOPVVIuO_/view",
+      "severity": 3
+    }
+  },
+  "West17StXXXX": {
+    "windows_doors": {
+      "url": "https://example.com/pdf/West17StXXXX_windows_doors.pdf",
+      "severity": 3
+    },
+    "stucco": {
+      "url": "https://example.com/pdf/West17StXXXX_stucco.pdf",
+      "severity": 2
+    },
+    "deck": {
+      "url": "https://example.com/pdf/West17StXXXX_deck.pdf",
+      "severity": 1
+    },
+    "roof": {
+      "url": "https://example.com/pdf/West17StXXXX_roof.pdf",
+      "severity": 1
+    },
+    "soil": {
+      "url": "https://example.com/pdf/West17StXXXX_soil.pdf",
+      "severity": 1
+    },
+    "patio_wall": {
+      "url": "https://example.com/pdf/West17StXXXX_patio_wall.pdf",
+      "severity": 1
+    },
+    "prior_water_intrusion": {
+      "url": "https://example.com/pdf/West17StXXXX_prior_water_intrusion.pdf",
+      "severity": 1
+    }
   }
-  
 }
