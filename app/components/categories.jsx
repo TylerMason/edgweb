@@ -5,13 +5,13 @@ import React from 'react';
 
 const Categories = ({ selectedCategory, setSelectedCategory }) => {
   const categories = [
-    { display: "Windows & Doors", key: "windows_doors" },
+    { display: "Windows & Doors", key: "windowsDoors" },
     { display: "Stucco", key: "stucco" },
     { display: "Decks", key: "deck" },
     { display: "Roof", key: "roof" },
     { display: "Soil", key: "soil" },
-    { display: "Patio Wall", key: "patio_wall" },
-    { display: "Prior Water Intrusion", key: "prior_water_intrusion" }
+    { display: "Adj Improvements", key: "adjImprove" },
+    { display: "Prior Water Intrusion", key: "priorWater" }
   ];
 
   return (

@@ -1,187 +1,385 @@
 {
-  "TopangaXXXX": {
-    "windows_doors": {
-      "url": "https://example.com/pdf/TopangaXXXX_windows_doors.pdf",
+  "Pamona1676": {
+    "windowsDoors": {
+      "url": "https://drive.google.com/file/d/1LkfCX-68gtqud8Ji1MR3WX5BL5HtE1m3/view?usp=drivesdk",
       "severity": 3
     },
     "stucco": {
-      "url": "https://example.com/pdf/TopangaXXXX_stucco.pdf",
+      "url": "https://drive.google.com/file/d/1NkJIlVTFQPmDnjyLhR96KZb81Rvoi_jN/view?usp=drivesdk",
+      "severity": 1
+    }
+  },
+  "Topanga1686": {
+    "windowsDoors": {
+      "url": "https://drive.google.com/file/d/1e697jth7fnVYTBnYImXomWFe9TtkelLO/view?usp=drivesdk",
       "severity": 2
     },
     "deck": {
-      "url": "https://example.com/pdf/TopangaXXXX_deck.pdf",
-      "severity": 1
+      "url": "https://drive.google.com/file/d/141UMX3T_An-pF4hmEl-6LogRxLavXfSy/view?usp=drivesdk",
+      "severity": 3
     },
-    "roof": {
-      "url": "https://example.com/pdf/TopangaXXXX_roof.pdf",
+    "stucco": {
+      "url": "https://drive.google.com/file/d/1n0BqOD3DNDukM0jiwBfqOpa5GpzW6jOc/view?usp=drivesdk",
       "severity": 1
-    },
-    "soil": {
-      "url": "https://example.com/pdf/TopangaXXXX_soil.pdf",
-      "severity": 1
-    },
-    "patio_wall": {
-      "url": "https://example.com/pdf/TopangaXXXX_patio_wall.pdf",
-      "severity": 1
-    },
-    "prior_water_intrusion": {
-      "url": "https://example.com/pdf/TopangaXXXX_prior_water_intrusion.pdf",
-      "severity": 1
+    }
+  },
+  "Topanga1670": {
+    "adjImprove": {
+      "url": "https://drive.google.com/file/d/1qSahvB2oR8Ov47GsHTaNuQKJ1m6P4Xz9/view?usp=drivesdk",
+      "severity": 2
+    }
+  },
+  "Topanga1664": {
+    "adjImprove": {
+      "url": "https://drive.google.com/file/d/1hDxfwQsaxs7hbep7zMeJfg8C0kRWM6YN/view?usp=drivesdk",
+      "severity": 3
+    }
+  },
+  "Topanga1649": {
+    "adjImprove": {
+      "url": "https://drive.google.com/file/d/1qqD-NOT1ElWauVHjCmIs4MDDVkNJOgMH/view?usp=drivesdk",
+      "severity": 2
     }
   },
   "Monarch1686": {
-    "patio_wall": {
-      "url": "https://drive.google.com/file/d/14ofgNnZ8OtIZGQDyTob3G8DDwS7EkDPN/view?usp=sharing",
+    "adjImprove": {
+      "url": "https://drive.google.com/file/d/14ofgNnZ8OtIZGQDyTob3G8DDwS7EkDPN/view?usp=drivesdk",
       "severity": 3
     }
   },
-  "Monarch1688": {
-    "windows_doors": {
-      "url": "https://drive.google.com/file/d/12s0hl29LRF7r777RkXTNrW-D_KxCFFY-/view?usp=sharing",
+  "Pamona1684": {
+    "adjImprove": {
+      "url": "https://drive.google.com/file/d/1sjuyfutTIHtsfKa6tW9pu-5bDMpGChki/view?usp=drivesdk",
       "severity": 1
     }
   },
-  "Monarch1682": {
+  "DohenySt689": {
+    "adjImprove": {
+      "url": "https://drive.google.com/file/d/19fhxAgtHQxlUDOYs_KZ6g_qg6O3hOH_Y/view?usp=drivesdk",
+      "severity": 2
+    }
+  },
+  "DohenySt683": {
+    "adjImprove": {
+      "url": "https://drive.google.com/file/d/1eNA6MH_QcP0WPjAoZriiTIPaM1aZZx6I/view?usp=drivesdk",
+      "severity": 2
+    },
     "deck": {
-      "url": "https://drive.google.com/file/d/1BqQz_0GCgCoO03scNP71MFXz27vaMn-2/view?usp=sharing",
-      "severity": 3
+      "url": "https://drive.google.com/file/d/1Kw5vDzq0MAjozdUi1nkqkkhFs59hR_qp/view?usp=drivesdk",
+      "severity": 2
+    },
+    "stucco": {
+      "url": "https://drive.google.com/file/d/1RG-ys0RbRQkfeFO0uValiT8jjBNABkNx/view?usp=drivesdk",
+      "severity": 1
     }
   },
-  "Monarch1683": {
-    "windows_doors": {
-      "url": "https://drive.google.com/file/d/1M6KyunVzYlYcZ7aF2d9NbXjr4xaDGDlB/view?usp=sharing",
+  "Malibu684": {
+    "adjImprove": {
+      "url": "https://drive.google.com/file/d/1_4czGh320Cso3Tiv6faqiJCmnoS70FVW/view?usp=drivesdk",
+      "severity": 2
+    },
+    "deck": {
+      "url": "https://drive.google.com/file/d/1zLpaq0Td3xJoXCQ-wieF2fWi7AgWyt_O/view?usp=drivesdk",
       "severity": 2
     }
   },
-  "Monarch1681": {
-    "windows_doors": {
-      "url": "https://drive.google.com/file/d/16YOsbOD-bc91vb4kUuINsCc4Jzwknmlc/view?usp=sharing",
+  "Topanga1682": {
+    "deck": {
+      "url": "https://drive.google.com/file/d/1fvlZQVJm_3fn7dLH5ChaPmpueyBqf8l0/view?usp=drivesdk",
+      "severity": 2
+    },
+    "windowsDoors": {
+      "url": "https://drive.google.com/file/d/15bP_F-o0i7qLVc_i9Gr_rPnOFVdn8xlF/view?usp=drivesdk",
       "severity": 2
     }
   },
-  "GrandviewXXXX": {
-    "windows_doors": {
-      "url": "https://example.com/pdf/GrandViewXXXX_windows_doors.pdf",
+  "Grandview1687": {
+    "deck": {
+      "url": "https://drive.google.com/file/d/11_rgNIXSfB9BRGwNRj4xE8RQn0k_NXJN/view?usp=drivesdk",
+      "severity": 1
+    },
+    "stucco": {
+      "url": "https://drive.google.com/file/d/1MpqhHqqFeVoHOG1ofH6Df2zAjEjmEFLk/view?usp=drivesdk",
+      "severity": 2
+    },
+    "windowsDoors": {
+      "url": "https://drive.google.com/file/d/1JmOwgEYKuXRDhWdUyIVDwNUJAurDVHhB/view?usp=drivesdk",
+      "severity": 2
+    }
+  },
+  "Grandview1675": {
+    "deck": {
+      "url": "https://drive.google.com/file/d/1kQ1IjPv9pmtxOLAmtp5Bl9hdpq0ywxiz/view?usp=drivesdk",
       "severity": 3
     },
     "stucco": {
-      "url": "https://example.com/pdf/GrandViewXXXX_stucco.pdf",
-      "severity": 2
+      "url": "https://drive.google.com/file/d/1cVxqsGRqaB3UVKvd72zTS_xM4Rw4mZFo/view?usp=drivesdk",
+      "severity": 3
     },
-    "deck": {
-      "url": "https://example.com/pdf/GrandViewXXXX_deck.pdf",
-      "severity": 1
-    },
-    "roof": {
-      "url": "https://example.com/pdf/GrandViewXXXX_roof.pdf",
-      "severity": 1
-    },
-    "soil": {
-      "url": "https://example.com/pdf/GrandViewXXXX_soil.pdf",
-      "severity": 1
-    },
-    "patio_wall": {
-      "url": "https://example.com/pdf/GrandViewXXXX_patio_wall.pdf",
-      "severity": 1
-    },
-    "prior_water_intrusion": {
-      "url": "https://example.com/pdf/GrandViewXXXX_prior_water_intrusion.pdf",
-      "severity": 1
+    "windowsDoors": {
+      "url": "https://drive.google.com/file/d/1iF-FfwyolNDwA8hs1xfXMDnJESuQD5Jc/view?usp=drivesdk",
+      "severity": 3
     }
   },
-  "MalibuXXXX": {
-    "windows_doors": {
-      "url": "https://example.com/pdf/MalibuXXXX_windows_doors.pdf",
+  "Grandview1663": {
+    "deck": {
+      "url": "https://drive.google.com/file/d/1HxA38XdVb-G5qvu1YGKq9RGPyPri5wXm/view?usp=drivesdk",
+      "severity": 1
+    },
+    "windowsDoors": {
+      "url": "https://drive.google.com/file/d/1AnmYkAIyhhLMZFNKi5b5bTkgPczq7bzG/view?usp=drivesdk",
+      "severity": 3
+    }
+  },
+  "DohenySt687": {
+    "deck": {
+      "url": "https://drive.google.com/file/d/1VrLUTbvvAreLA2ZHe5tsw6OHgKD8b4ki/view?usp=drivesdk",
+      "severity": 2
+    }
+  },
+  "Malibu690": {
+    "deck": {
+      "url": "https://drive.google.com/file/d/1CP_-46uNax-2QypI2hVi1X949MdkE0D7/view?usp=drivesdk",
+      "severity": 3
+    }
+  },
+  "Wedge660": {
+    "deck": {
+      "url": "https://drive.google.com/file/d/1KHzgbC3FrHh-8Z6AQpcYZIWbZHZkDhFf/view?usp=drivesdk",
       "severity": 3
     },
     "stucco": {
-      "url": "https://example.com/pdf/MalibuXXXX_stucco.pdf",
+      "url": "https://drive.google.com/file/d/1hkiH_HDbM3ECfK_t4Glumu4k-iicY6v4/view?usp=drivesdk",
+      "severity": 1
+    },
+    "windowsDoors": {
+      "url": "https://drive.google.com/file/d/1zsvAyC2NEKyT7fla9Jp56xKIH56R90TH/view?usp=drivesdk",
+      "severity": 2
+    }
+  },
+  "Wedge656": {
+    "deck": {
+      "url": "https://drive.google.com/file/d/15JeJ65aunIc_DcEoAmpy010ZOQccNCM-/view?usp=drivesdk",
       "severity": 2
     },
-    "deck": {
-      "url": "https://example.com/pdf/MalibuXXXX_deck.pdf",
-      "severity": 1
-    },
-    "roof": {
-      "url": "https://example.com/pdf/MalibuXXXX_roof.pdf",
-      "severity": 1
-    },
-    "soil": {
-      "url": "https://example.com/pdf/MalibuXXXX_soil.pdf",
-      "severity": 1
-    },
-    "patio_wall": {
-      "url": "https://example.com/pdf/MalibuXXXX_patio_wall.pdf",
-      "severity": 1
-    },
-    "prior_water_intrusion": {
-      "url": "https://example.com/pdf/MalibuXXXX_prior_water_intrusion.pdf",
+    "stucco": {
+      "url": "https://drive.google.com/file/d/1lwb3KuIDleLJbyEkPKhg0xE6yi_WOeXo/view?usp=drivesdk",
       "severity": 1
     }
   },
-  "WedgeXXXX": {
-    "windows_doors": {
-      "url": "https://example.com/pdf/WedgeXXXX_windows_doors.pdf",
+  "Topanga1676": {
+    "stucco": {
+      "url": "https://drive.google.com/file/d/1mGj3GhTHe9X__xCush04X1uugFU2uQpx/view?usp=drivesdk",
+      "severity": 1
+    },
+    "windowsDoors": {
+      "url": "https://drive.google.com/file/d/1NBGwXjhgXLJow9npoSPMuQAL2HeF9PpX/view?usp=drivesdk",
+      "severity": 2
+    }
+  },
+  "Topanga1660": {
+    "stucco": {
+      "url": "https://drive.google.com/file/d/1FW2rEFvawT1YvDx5fx-HwqNWjq9oFAyP/view?usp=drivesdk",
+      "severity": 3
+    }
+  },
+  "Topanga1658": {
+    "stucco": {
+      "url": "https://drive.google.com/file/d/1wFVKvKfGOANe4eh4indDFNc0LPADHk07/view?usp=drivesdk",
+      "severity": 1
+    }
+  },
+  "Topanga1656": {
+    "stucco": {
+      "url": "https://drive.google.com/file/d/1GPjilRuzmRx5OR-eAsEIIo20eCpp1DwR/view?usp=drivesdk",
+      "severity": 1
+    }
+  },
+  "Topanga1647": {
+    "stucco": {
+      "url": "https://drive.google.com/file/d/16U_8XrE1kJUW9klSWNHo7decR8_4qpgz/view?usp=drivesdk",
+      "severity": 1
+    }
+  },
+  "Grandview1676": {
+    "stucco": {
+      "url": "https://drive.google.com/file/d/1PSG6SnPUP_THUCH66mmI2YIZ-Vk1eA6Q/view?usp=drivesdk",
+      "severity": 3
+    }
+  },
+  "Pamona1688": {
+    "stucco": {
+      "url": "https://drive.google.com/file/d/1vawL2msdTl7uwy-OK3SVu_0J0eWGI8SX/view?usp=drivesdk",
+      "severity": 1
+    }
+  },
+  "Pamona1662": {
+    "stucco": {
+      "url": "https://drive.google.com/file/d/1-c8drzeyTBRy6OgeEhzhcOF65GYqxvM-/view?usp=drivesdk",
+      "severity": 1
+    },
+    "windowsDoors": {
+      "url": "https://drive.google.com/file/d/1DZBlomROMTF5TKxky8UI2fP5eiMQTDBE/view?usp=drivesdk",
+      "severity": 2
+    }
+  },
+  "Pamona1682": {
+    "stucco": {
+      "url": "https://drive.google.com/file/d/19VYH6AtRb4OgNR21LfeZem9gqkj386w5/view?usp=drivesdk",
       "severity": 3
     },
-    "stucco": {
-      "url": "https://example.com/pdf/WedgeXXXX_stucco.pdf",
-      "severity": 2
-    },
-    "deck": {
-      "url": "https://example.com/pdf/WedgeXXXX_deck.pdf",
-      "severity": 1
-    },
-    "roof": {
-      "url": "https://example.com/pdf/WedgeXXXX_roof.pdf",
-      "severity": 1
-    },
-    "soil": {
-      "url": "https://example.com/pdf/WedgeXXXX_soil.pdf",
-      "severity": 1
-    },
-    "patio_wall": {
-      "url": "https://example.com/pdf/WedgeXXXX_patio_wall.pdf",
-      "severity": 1
-    },
-    "prior_water_intrusion": {
-      "url": "https://example.com/pdf/WedgeXXXX_prior_water_intrusion.pdf",
-      "severity": 1
+    "windowsDoors": {
+      "url": "https://drive.google.com/file/d/1hj4lF5obA4kmE6uX8ZMjwp6XtVqn9W5o/view?usp=drivesdk",
+      "severity": 3
     }
   },
   "DohenySt681": {
     "stucco": {
-      "url": "https://drive.google.com/file/d/15M7WPaxfBCdMZHQ6gwXbFdzVOPVVIuO_/view",
+      "url": "https://drive.google.com/file/d/15M7WPaxfBCdMZHQ6gwXbFdzVOPVVIuO_/view?usp=drivesdk",
       "severity": 3
     }
   },
-  "West17StXXXX": {
-    "windows_doors": {
-      "url": "https://example.com/pdf/West17StXXXX_windows_doors.pdf",
+  "Malibu686": {
+    "stucco": {
+      "url": "https://drive.google.com/file/d/1cAIuzbQClr1gSdvhaSlqVUJ-Yr0pBp6I/view?usp=drivesdk",
+      "severity": 3
+    }
+  },
+  "Wedge659": {
+    "stucco": {
+      "url": "https://drive.google.com/file/d/11vvElFgjnlSTCwAczG6jsjvZgphDordo/view?usp=drivesdk",
       "severity": 3
     },
+    "windowsDoors": {
+      "url": "https://drive.google.com/file/d/1agvm39wXK-NmhPqqIidc-7gTN-yCvTm2/view?usp=drivesdk",
+      "severity": 1
+    }
+  },
+  "Wedge657": {
     "stucco": {
-      "url": "https://example.com/pdf/West17StXXXX_stucco.pdf",
+      "url": "https://drive.google.com/file/d/1dDB0IffV2UOTArZI6prxxdmIAVi10vDM/view?usp=drivesdk",
+      "severity": 1
+    }
+  },
+  "Wedge654": {
+    "stucco": {
+      "url": "https://drive.google.com/file/d/1fTVfiDRiYkFMVQoTEplJCGKKgQH4iBbq/view?usp=drivesdk",
+      "severity": 1
+    },
+    "windowsDoors": {
+      "url": "https://drive.google.com/file/d/1x1YmbXIBMYuvounecoG9YoujFwAkChIV/view?usp=drivesdk",
+      "severity": 3
+    }
+  },
+  "Moonlight1679": {
+    "stucco": {
+      "url": "https://drive.google.com/file/d/1FpRvb_X7EKCjSGZjncPu7JbuTvifDuvo/view?usp=drivesdk",
       "severity": 2
     },
-    "deck": {
-      "url": "https://example.com/pdf/West17StXXXX_deck.pdf",
+    "windowsDoors": {
+      "url": "https://drive.google.com/file/d/14TmtFfBdDd-5UI7yh8yoEgI0D6qgK7In/view?usp=drivesdk",
+      "severity": 3
+    }
+  },
+  "Topanga1688": {
+    "windowsDoors": {
+      "url": "https://drive.google.com/file/d/1B1vzlgRPpyG4kqpgfJBDsHUKSmcNjqaM/view?usp=drivesdk",
+      "severity": 3
+    }
+  },
+  "Topanga1680": {
+    "windowsDoors": {
+      "url": "https://drive.google.com/file/d/1REc4EtK5ZFvRY7D6IDnbRQh8gJdKz0dI/view?usp=drivesdk",
+      "severity": 2
+    }
+  },
+  "Topanga1679": {
+    "windowsDoors": {
+      "url": "https://drive.google.com/file/d/1-wK79Xb9562m8dinuwAoqfIWk-qswA_W/view?usp=drivesdk",
+      "severity": 2
+    }
+  },
+  "Topanga1674": {
+    "windowsDoors": {
+      "url": "https://drive.google.com/file/d/1a6uDiIpBLe5-b1g24L2P0yk8y06d19v7/view?usp=drivesdk",
+      "severity": 3
+    }
+  },
+  "Topanga1668": {
+    "windowsDoors": {
+      "url": "https://drive.google.com/file/d/1W3brjg94TxoHwlTCLJ2Z-PUhnvjKBNLg/view?usp=drivesdk",
+      "severity": 2
+    }
+  },
+  "Grandview1686": {
+    "windowsDoors": {
+      "url": "https://drive.google.com/file/d/1nUglFAYnywGjd7T3CM7ag25exz_WNaqg/view?usp=drivesdk",
+      "severity": 2
+    }
+  },
+  "Grandview1683": {
+    "windowsDoors": {
+      "url": "https://drive.google.com/file/d/11XPdsQod3niVRQRM0-KxRWDOFMuTVSii/view?usp=drivesdk",
       "severity": 1
-    },
-    "roof": {
-      "url": "https://example.com/pdf/West17StXXXX_roof.pdf",
+    }
+  },
+  "Grandview1677": {
+    "windowsDoors": {
+      "url": "https://drive.google.com/file/d/1lUGe9V0ZmfIuczOLaAGmV09rRMgmrOhn/view?usp=drivesdk",
       "severity": 1
-    },
-    "soil": {
-      "url": "https://example.com/pdf/West17StXXXX_soil.pdf",
+    }
+  },
+  "Grandview1671": {
+    "windowsDoors": {
+      "url": "https://drive.google.com/file/d/1bq1F7s_U1D34w3fdxFSsXjZUfPTXrGNs/view?usp=drivesdk",
       "severity": 1
-    },
-    "patio_wall": {
-      "url": "https://example.com/pdf/West17StXXXX_patio_wall.pdf",
+    }
+  },
+  "Monarch1688": {
+    "windowsDoors": {
+      "url": "https://drive.google.com/file/d/12s0hl29LRF7r777RkXTNrW-D_KxCFFY-/view?usp=drivesdk",
       "severity": 1
-    },
-    "prior_water_intrusion": {
-      "url": "https://example.com/pdf/West17StXXXX_prior_water_intrusion.pdf",
+    }
+  },
+  "Monarch1683": {
+    "windowsDoors": {
+      "url": "https://drive.google.com/file/d/1M6KyunVzYlYcZ7aF2d9NbXjr4xaDGDlB/view?usp=drivesdk",
+      "severity": 2
+    }
+  },
+  "Monarch1681": {
+    "windowsDoors": {
+      "url": "https://drive.google.com/file/d/16YOsbOD-bc91vb4kUuINsCc4Jzwknmlc/view?usp=drivesdk",
+      "severity": 2
+    }
+  },
+  "Pamona1690": {
+    "windowsDoors": {
+      "url": "https://drive.google.com/file/d/1WL9VPOg_c7XU6Q0H0EP4ax9vkzG0lLhT/view?usp=drivesdk",
+      "severity": 2
+    }
+  },
+  "Pamona1668": {
+    "windowsDoors": {
+      "url": "https://drive.google.com/file/d/1gXr7HGGE-a_gZjmVV0Yzp5GsOqvDDuR7/view?usp=drivesdk",
+      "severity": 2
+    }
+  },
+  "Malibu692": {
+    "windowsDoors": {
+      "url": "https://drive.google.com/file/d/17UU-QkqB47dr9yboNfL8OhFt-KOZWbU-/view?usp=drivesdk",
+      "severity": 3
+    }
+  },
+  "Malibu682": {
+    "windowsDoors": {
+      "url": "https://drive.google.com/file/d/1W5D41-bhGZVysVGOtA5wf-SA5NwyPU8p/view?usp=drivesdk",
+      "severity": 1
+    }
+  },
+  "Wedge655": {
+    "windowsDoors": {
+      "url": "https://drive.google.com/file/d/1qVHgVQ9vS6jL5hQ1-_1ZIGxm_0iJTCWw/view?usp=drivesdk",
       "severity": 1
     }
   }
