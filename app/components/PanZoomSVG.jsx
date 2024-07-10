@@ -11,7 +11,7 @@ const PanZoomSVG = ({ selectedCategory }) => {
 
   useEffect(() => {
     // Fetch the SVG
-    fetch('mapv2.svg')
+    fetch('mapv3.svg')
       .then(response => response.text())
       .then(svg => {
         panZoomRef.current.innerHTML = svg;
@@ -25,7 +25,8 @@ const PanZoomSVG = ({ selectedCategory }) => {
         // Load the JSON configuration
         elementConfigs.current = unitStyles;
 
-        // Apply initial styles and event listeners
+        // Apply initial opacity and event listeners
+        applyInitialOpacity(svgElement);
         applyStylesAndListeners(svgElement, selectedCategory);
       });
   }, []);
@@ -38,12 +39,23 @@ const PanZoomSVG = ({ selectedCategory }) => {
     }
   }, [selectedCategory]);
 
+  const applyInitialOpacity = (svgElement) => {
+    const elements = svgElement.querySelectorAll('.cls-2');
+    const elements2 = svgElement.querySelectorAll('.cls-1');
+    elements.forEach(element => {
+      element.classList.add('opacity-0');
+    });
+    elements2.forEach(element2 => {
+      element2.classList.add('opacity-0');
+    });
+  };
+
   const applyStylesAndListeners = (svgElement, category) => {
     // Remove existing styles
     Object.keys(elementConfigs.current).forEach(unitId => {
       const element = svgElement.querySelector(`#${unitId}`);
       if (element) {
-        element.setAttribute('class', 'cls-1'); // Reset to default class
+        element.className.baseVal = 'cls-2 opacity-0'; // Reset to default class and opacity
         element.onclick = null;
       }
     });
@@ -55,25 +67,26 @@ const PanZoomSVG = ({ selectedCategory }) => {
         const { severity, url } = unitConfig[category];
         const element = svgElement.querySelector(`#${unitId}`);
         if (element) {
-          const severityClass = getSeverityClass(severity);
+          const severityClasses = getSeverityClasses(severity);
           const hoverClass = getHoverClass(severity);
-          element.classList.add(severityClass, hoverClass, 'cursor-pointer', 'transition-colors', 'duration-300');
+          element.classList.remove('opacity-0');
+          element.classList.add(...severityClasses, hoverClass, 'opacity-60', 'cursor-pointer', 'transition-colors', 'duration-400');
           element.onclick = () => window.open(url, '_blank');
         }
       }
     });
   };
 
-  const getSeverityClass = (severity) => {
+  const getSeverityClasses = (severity) => {
     switch (severity) {
       case 1:
-        return 'fill-yellow-500';
+        return ['fill-yellow-500'];
       case 2:
-        return 'fill-orange-500';
+        return ['fill-orange-500'];
       case 3:
-        return 'fill-red-500';
+        return ['fill-red-500'];
       default:
-        return '';
+        return [];
     }
   };
 

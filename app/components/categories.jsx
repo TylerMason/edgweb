@@ -19,7 +19,7 @@ const Categories = ({ selectedCategory, setSelectedCategory }) => {
       {categories.map((category, index) => (
         <label
           key={index}
-          className={`flex items-center space-x-2 p-2 rounded-lg cursor-pointer justify-center ${
+          className={`flex items-center space-x-2 p-1 rounded-lg cursor-pointer justify-center ${
             selectedCategory === category.key ? "bg-yellow-300" : "hover:bg-yellow-100"
           }`}
           onClick={() => {

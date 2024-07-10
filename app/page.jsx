@@ -7,6 +7,7 @@ import { useRouter } from 'next/navigation';
 import Image from 'next/image';
 import PanZoomSVG from './components/PanZoomSVG';
 import Categories from './components/categories';
+import CheckBoxGroup from './components/CheckBoxGroup'; // Import the new component
 
 export default function HomePage() {
   const { data: session, status } = useSession();
@@ -34,18 +35,19 @@ export default function HomePage() {
   return (
     <main className="flex flex-col min-h-screen items-center justify-between bg-slate-200">
       <div className="flex flex-col lg:flex-row w-full h-screen">
-        <div className="lg:w-[300px] w-full h-full p-4 order-2 lg:order-none flex flex-col justify-between">
-          <div className='space-y-8'>
+        <div className="lg:w-[300px] w-full h-full p-4 order-2 lg:order-none flex flex-col justify-between overflow-y-auto">
+          <div className='space-y-6'>
             <div className="pt-4">
               <Image src="/logo.png" alt="Logo" width={300} height={100} objectFit="contain" />
             </div>
             <Categories selectedCategory={selectedCategory} setSelectedCategory={setSelectedCategory} />
 
-            {/* Dummy hyperlinks */}
-            <div className="pt-4 text-center">
-              <a href="https://drive.google.com/file/d/16T5daZztGiJ5KY8IF6v-hIlL2OhWfyCx/view?usp=sharing" className="text-blue-500 hover:underline block" target="_blank" rel="noopener noreferrer">Builder Repair Locations</a>
-              <a href="https://drive.google.com/file/d/1Qrq3-n2GuBBgmjRz5yEtz3IKa2SNVCXA/view?usp=sharing" className="text-blue-500 hover:underline block mt-2" target="_blank" rel="noopener noreferrer">EDG DT Locations</a>
-              <a href="https://drive.google.com/file/d/1Hi_XQKN8wSifNxnUDyMB6DS32pxiPgwt/view?usp=sharing" className="text-blue-500 hover:underline block mt-2" target="_blank" rel="noopener noreferrer">Units Inspected</a>
+            {/* Horizontal divider */}
+            <hr className="border-gray-500" />
+
+            {/* Dummy hyperlinks and CheckBoxGroup */}
+            <div className="flex flex-col items-center text-center space-y-6">
+              <CheckBoxGroup /> {/* Use the new component here */}
             </div>
           </div>
 
