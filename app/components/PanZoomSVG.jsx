@@ -11,7 +11,7 @@ const PanZoomSVG = ({ selectedCategory }) => {
 
   useEffect(() => {
     // Fetch the SVG
-    fetch('mapv3.svg')
+    fetch('mapv4.svg')
       .then(response => response.text())
       .then(svg => {
         panZoomRef.current.innerHTML = svg;

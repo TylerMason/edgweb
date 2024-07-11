@@ -1,4 +1,818 @@
 {
+  "DohenySt690": {
+    "stucco": {
+      "url": "https://drive.google.com/file/d/1Vis8-34y51a_1ecrpNk0gjoHG28CwrY4/view?usp=drivesdk",
+      "severity": 3
+    },
+    "roof": {
+      "url": "https://drive.google.com/file/d/1ZqsLNMy1bC-lfhK3mMN1KSKVaxZmgAIj/view?usp=drivesdk",
+      "severity": 2
+    },
+    "deck": {
+      "url": "https://drive.google.com/file/d/1_NQiNr8kfximzQvlcIFG-zw_a6eAMH9R/view?usp=drivesdk",
+      "severity": 2
+    },
+    "adjImprove": {
+      "url": "https://drive.google.com/file/d/1_UiDoH1VKmWtMalj1RLn_MMImr4Mb8PX/view?usp=drivesdk",
+      "severity": 1
+    }
+  },
+  "DohenySt689": {
+    "stucco": {
+      "url": "https://drive.google.com/file/d/1VivRACCJOxsWXm6fDhIA3I4EJ8k6a34T/view?usp=drivesdk",
+      "severity": 2
+    },
+    "roof": {
+      "url": "https://drive.google.com/file/d/1ZHjXKhDeXtoSZvdh_AzWGKGXcFW20nBV/view?usp=drivesdk",
+      "severity": 2
+    },
+    "deck": {
+      "url": "https://drive.google.com/file/d/1ZHZivdsv6I7243X5E-nRbhI5opTG64tn/view?usp=drivesdk",
+      "severity": 2
+    },
+    "adjImprove": {
+      "url": "https://drive.google.com/file/d/19fhxAgtHQxlUDOYs_KZ6g_qg6O3hOH_Y/view?usp=drivesdk",
+      "severity": 2
+    }
+  },
+  "DohenySt683": {
+    "roof": {
+      "url": "https://drive.google.com/file/d/1Vi97SDD4zCXioHq0bkw5oPURopwX-u79/view?usp=drivesdk",
+      "severity": 2
+    },
+    "stucco": {
+      "url": "https://drive.google.com/file/d/1Vw9guAT8hWKx0iihyHumUIaCR1cECE91/view?usp=drivesdk",
+      "severity": 2
+    },
+    "soil": {
+      "url": "https://drive.google.com/file/d/1XQ5i889FISSRxHGWFUXw158h6_0R6QW_/view?usp=drivesdk",
+      "severity": 1
+    },
+    "deck": {
+      "url": "https://drive.google.com/file/d/1Kw5vDzq0MAjozdUi1nkqkkhFs59hR_qp/view?usp=drivesdk",
+      "severity": 2
+    },
+    "adjImprove": {
+      "url": "https://drive.google.com/file/d/1eNA6MH_QcP0WPjAoZriiTIPaM1aZZx6I/view?usp=drivesdk",
+      "severity": 2
+    }
+  },
+  "DohenySt685": {
+    "stucco": {
+      "url": "https://drive.google.com/file/d/1Vw-f6k0K3A5advElZdvIa_-RZYV9VnOs/view?usp=drivesdk",
+      "severity": 2
+    },
+    "adjImprove": {
+      "url": "https://drive.google.com/file/d/1XjWNlwdr5Gr8PauTYNi3W-PjS_26kqaa/view?usp=drivesdk",
+      "severity": 1
+    },
+    "deck": {
+      "url": "https://drive.google.com/file/d/1XT8nEZuL4llXBY8yosM2wYUuj9ctN-hP/view?usp=drivesdk",
+      "severity": 1
+    },
+    "roof": {
+      "url": "https://drive.google.com/file/d/1XzLdbh98MZCbGsF8ZXH1kRz06MviTpox/view?usp=drivesdk",
+      "severity": 2
+    },
+    "soil": {
+      "url": "https://drive.google.com/file/d/1Y3nvsBC4kc3sK6p9op2J1arAmYB70Iqp/view?usp=drivesdk",
+      "severity": 2
+    },
+    "windowsDoors": {
+      "url": "https://drive.google.com/file/d/1XrRdQACmvIP-cvmYWHWDjfalEIonPa_B/view?usp=drivesdk",
+      "severity": 2
+    }
+  },
+  "Topanga1688": {
+    "stucco": {
+      "url": "https://drive.google.com/file/d/1XA41zO1aVaR1gWeZTEpdy0AwSEREjAbt/view?usp=drivesdk",
+      "severity": 2
+    },
+    "windowsDoors": {
+      "url": "https://drive.google.com/file/d/1B1vzlgRPpyG4kqpgfJBDsHUKSmcNjqaM/view?usp=drivesdk",
+      "severity": 3
+    },
+    "deck": {
+      "url": "https://drive.google.com/file/d/1u-moVCg8uTkQBRZfsXKoAhzSPTQoWm1T/view?usp=drivesdk",
+      "severity": 2
+    },
+    "roof": {
+      "url": "https://drive.google.com/file/d/1BLm39v7KOMYqBdqgFiy9QQPxk3WUY15G/view?usp=drivesdk",
+      "severity": 2
+    },
+    "soil": {
+      "url": "https://drive.google.com/file/d/1BUS3UQgqDfbIyOlg9FBNz4Tromsq8RFH/view?usp=drivesdk",
+      "severity": 2
+    },
+    "adjImprove": {
+      "url": "https://drive.google.com/file/d/1BUGjb-qgLMOXzqT_lXm1N9PjvXNmCBKE/view?usp=drivesdk",
+      "severity": 1
+    }
+  },
+  "Topanga1686": {
+    "stucco": {
+      "url": "https://drive.google.com/file/d/1XMNJYWY_vvSTlKqr-VEMB5Tr9JUVvguh/view?usp=drivesdk",
+      "severity": 2
+    },
+    "soil": {
+      "url": "https://drive.google.com/file/d/1u-qeQ8ul1KbvAsGzWURxonl2q_dD4MQT/view?usp=drivesdk",
+      "severity": 2
+    },
+    "deck": {
+      "url": "https://drive.google.com/file/d/141UMX3T_An-pF4hmEl-6LogRxLavXfSy/view?usp=drivesdk",
+      "severity": 3
+    },
+    "windowsDoors": {
+      "url": "https://drive.google.com/file/d/1e697jth7fnVYTBnYImXomWFe9TtkelLO/view?usp=drivesdk",
+      "severity": 2
+    }
+  },
+  "Topanga1682": {
+    "stucco": {
+      "url": "https://drive.google.com/file/d/1XPLhDh-FsPjHrCdbiUrislCdi5rb-C34/view?usp=drivesdk",
+      "severity": 2
+    },
+    "windowsDoors": {
+      "url": "https://drive.google.com/file/d/15bP_F-o0i7qLVc_i9Gr_rPnOFVdn8xlF/view?usp=drivesdk",
+      "severity": 2
+    },
+    "deck": {
+      "url": "https://drive.google.com/file/d/1fvlZQVJm_3fn7dLH5ChaPmpueyBqf8l0/view?usp=drivesdk",
+      "severity": 2
+    },
+    "roof": {
+      "url": "https://drive.google.com/file/d/1CIvivh0V4DgxJb_InTbDXcEgEykySpYc/view?usp=drivesdk",
+      "severity": 2
+    },
+    "adjImprove": {
+      "url": "https://drive.google.com/file/d/1CCNSn_B-1mHLatg0i5EAGeBUx12Uf-Zq/view?usp=drivesdk",
+      "severity": 1
+    }
+  },
+  "Topanga1680": {
+    "stucco": {
+      "url": "https://drive.google.com/file/d/1XR2ZpyxQSabqkoQ7DP2rN15BotuH-0Go/view?usp=drivesdk",
+      "severity": 2
+    },
+    "windowsDoors": {
+      "url": "https://drive.google.com/file/d/1REc4EtK5ZFvRY7D6IDnbRQh8gJdKz0dI/view?usp=drivesdk",
+      "severity": 2
+    },
+    "soil": {
+      "url": "https://drive.google.com/file/d/1u95r2FehwfRK2BCLbx70Yu3v6TY75fIx/view?usp=drivesdk",
+      "severity": 2
+    },
+    "deck": {
+      "url": "https://drive.google.com/file/d/1u7wmu9-62IVCa6IoMzTUT0qykWUoEtxm/view?usp=drivesdk",
+      "severity": 2
+    },
+    "roof": {
+      "url": "https://drive.google.com/file/d/1CrCaQW1YFvP4QoT641OApwqWv_yq_fV1/view?usp=drivesdk",
+      "severity": 2
+    },
+    "adjImprove": {
+      "url": "https://drive.google.com/file/d/1ChpdVhpMx1RczrkhmI9LX2oWJKllLUx4/view?usp=drivesdk",
+      "severity": 1
+    }
+  },
+  "Topanga1678": {
+    "stucco": {
+      "url": "https://drive.google.com/file/d/1XR8PoQDzXzNX-Dqz4GuAHBGIvT7gT0Uc/view?usp=drivesdk",
+      "severity": 1
+    },
+    "windowsDoors": {
+      "url": "https://drive.google.com/file/d/1E8251rVs6hxYbl3bzt5gIKTtWYJEV4Bo/view?usp=drivesdk",
+      "severity": 2
+    },
+    "deck": {
+      "url": "https://drive.google.com/file/d/1E0vQcd3H_j-s18pu9dhXLpNpWjgCn4pk/view?usp=drivesdk",
+      "severity": 2
+    },
+    "roof": {
+      "url": "https://drive.google.com/file/d/1DqySlNAl8o5F4eXY2z8PyRLQfh3jmcJz/view?usp=drivesdk",
+      "severity": 2
+    },
+    "soil": {
+      "url": "https://drive.google.com/file/d/1E8N8b-j4gA5OQv76v63jCDtWcQOK-uhg/view?usp=drivesdk",
+      "severity": 2
+    },
+    "adjImprove": {
+      "url": "https://drive.google.com/file/d/1DegFwRYy7AtsFIIEY2zNe8OwmFwV6dFo/view?usp=drivesdk",
+      "severity": 1
+    }
+  },
+  "Topanga1674": {
+    "stucco": {
+      "url": "https://drive.google.com/file/d/1XVBeE4cWg9VrGkJvTWD9VIZidsGZfJZf/view?usp=drivesdk",
+      "severity": 1
+    },
+    "windowsDoors": {
+      "url": "https://drive.google.com/file/d/1a6uDiIpBLe5-b1g24L2P0yk8y06d19v7/view?usp=drivesdk",
+      "severity": 3
+    },
+    "deck": {
+      "url": "https://drive.google.com/file/d/1uAhBSA6YQf4pc8PrMyHnMglWhuo3t1jr/view?usp=drivesdk",
+      "severity": 2
+    },
+    "roof": {
+      "url": "https://drive.google.com/file/d/1FX2KDgb-vAKAjhrdRjqrp6_xEnONomUw/view?usp=drivesdk",
+      "severity": 2
+    },
+    "soil": {
+      "url": "https://drive.google.com/file/d/1FbHtsLpAmtssU5I_eUfGTMczV-u3WTTN/view?usp=drivesdk",
+      "severity": 1
+    },
+    "adjImprove": {
+      "url": "https://drive.google.com/file/d/1FR9Q0v1NCzFIgckz-UIIC77E1JYV-4ex/view?usp=drivesdk",
+      "severity": 1
+    }
+  },
+  "Topanga1672": {
+    "stucco": {
+      "url": "https://drive.google.com/file/d/1XX26nYgbVWF3GCM2Ot54h_nS1WB7Y8ao/view?usp=drivesdk",
+      "severity": 2
+    },
+    "deck": {
+      "url": "https://drive.google.com/file/d/1uBbqm8-PcVrGZo2o-Jgg670H7rXhLkuP/view?usp=drivesdk",
+      "severity": 2
+    },
+    "soil": {
+      "url": "https://drive.google.com/file/d/1G2DoUSFljQQcozQLiwrCEvjTn0wS6oSy/view?usp=drivesdk",
+      "severity": 1
+    },
+    "windowsDoors": {
+      "url": "https://drive.google.com/file/d/1GCi6kjorbSijs00o3h3_TR8FMfRTJyfj/view?usp=drivesdk",
+      "severity": 1
+    },
+    "adjImprove": {
+      "url": "https://drive.google.com/file/d/1G9pQ94nKMrNNXG-P7zJt3HNmNzP2MRhC/view?usp=drivesdk",
+      "severity": 1
+    }
+  },
+  "Topanga1670": {
+    "stucco": {
+      "url": "https://drive.google.com/file/d/1Gv9wAUXexv2vmfIBSJHylzNzRZmozb-q/view?usp=drivesdk",
+      "severity": 1
+    },
+    "adjImprove": {
+      "url": "https://drive.google.com/file/d/1qSahvB2oR8Ov47GsHTaNuQKJ1m6P4Xz9/view?usp=drivesdk",
+      "severity": 2
+    },
+    "roof": {
+      "url": "https://drive.google.com/file/d/1Gqhe5Re4xw7Kyc-Zi4U1sWbilKHTwvi_/view?usp=drivesdk",
+      "severity": 2
+    },
+    "deck": {
+      "url": "https://drive.google.com/file/d/1GlfUdaWeAzN12cfsMy0RWzJ_qL21kPSp/view?usp=drivesdk",
+      "severity": 2
+    }
+  },
+  "Topanga1668": {
+    "stucco": {
+      "url": "https://drive.google.com/file/d/1XhIAcl8rbap02Lpf843MIk97-j8dNTuE/view?usp=drivesdk",
+      "severity": 2
+    },
+    "windowsDoors": {
+      "url": "https://drive.google.com/file/d/1W3brjg94TxoHwlTCLJ2Z-PUhnvjKBNLg/view?usp=drivesdk",
+      "severity": 2
+    },
+    "roof": {
+      "url": "https://drive.google.com/file/d/1GznmT4rYk4Y9UHyObSnQ_aZlbkpodqcy/view?usp=drivesdk",
+      "severity": 2
+    },
+    "deck": {
+      "url": "https://drive.google.com/file/d/1HOi8eyXRry8IfdU7UTGGdjzeT7akRsRE/view?usp=drivesdk",
+      "severity": 2
+    },
+    "adjImprove": {
+      "url": "https://drive.google.com/file/d/1H1TE-oJTo8S-QpShs3jswNDV_2g64lSv/view?usp=drivesdk",
+      "severity": 1
+    }
+  },
+  "Topanga1664": {
+    "stucco": {
+      "url": "https://drive.google.com/file/d/1XnGe6NGZoUr-M1TdKz0uYoc9PTEl4s1q/view?usp=drivesdk",
+      "severity": 2
+    },
+    "adjImprove": {
+      "url": "https://drive.google.com/file/d/1hDxfwQsaxs7hbep7zMeJfg8C0kRWM6YN/view?usp=drivesdk",
+      "severity": 3
+    },
+    "deck": {
+      "url": "https://drive.google.com/file/d/1HisonlRrZjtw5_0VHYHqig8UB9tllGRV/view?usp=drivesdk",
+      "severity": 2
+    },
+    "windowsDoors": {
+      "url": "https://drive.google.com/file/d/1HZB_tMLx2q32uVwPNkmC6FjYJIeAQ2vB/view?usp=drivesdk",
+      "severity": 1
+    }
+  },
+  "Topanga1662": {
+    "stucco": {
+      "url": "https://drive.google.com/file/d/1Xo7T7ttoxxPgZCmlxXEPsS3kwrCwEvAT/view?usp=drivesdk",
+      "severity": 1
+    },
+    "deck": {
+      "url": "https://drive.google.com/file/d/1IFZ1PvCqsgttcgsAxbmUqJ1Fzxu2A8Kh/view?usp=drivesdk",
+      "severity": 2
+    },
+    "soil": {
+      "url": "https://drive.google.com/file/d/1HxgQMRFp8Mwd4HhIaqtaW28UKigBa3ow/view?usp=drivesdk",
+      "severity": 1
+    },
+    "roof": {
+      "url": "https://drive.google.com/file/d/1IDZAZvQAL_EyDjCVbhJ0GBOgVZrmzecg/view?usp=drivesdk",
+      "severity": 1
+    },
+    "adjImprove": {
+      "url": "https://drive.google.com/file/d/1I03DEfG141DJW1fl1aOnMvSYDDOOwPmw/view?usp=drivesdk",
+      "severity": 1
+    }
+  },
+  "Topanga1687": {
+    "stucco": {
+      "url": "https://drive.google.com/file/d/1XvcWUNwXEVoqRewfJPwUc0udaR-DxNm-/view?usp=drivesdk",
+      "severity": 2
+    },
+    "deck": {
+      "url": "https://drive.google.com/file/d/18VFLjMnnXo888zzjaqDetDW8b4ZcBUuD/view?usp=drivesdk",
+      "severity": 1
+    },
+    "adjImprove": {
+      "url": "https://drive.google.com/file/d/18NEFu1DYpKywVrWWadyw4IfabhCeRc4u/view?usp=drivesdk",
+      "severity": 1
+    },
+    "roof": {
+      "url": "https://drive.google.com/file/d/1tXc5bLk8nxxp2ddAg09Esmhvh8YjcNJa/view?usp=drivesdk",
+      "severity": 2
+    },
+    "windowsDoors": {
+      "url": "https://drive.google.com/file/d/1t_IVFTj4YXB3NkYeAG9IKkbZxEk-HwR-/view?usp=drivesdk",
+      "severity": 1
+    },
+    "soil": {
+      "url": "https://drive.google.com/file/d/1tjorOVMm3tyc5adfrTxkTtHfuF5MjY9_/view?usp=drivesdk",
+      "severity": 1
+    }
+  },
+  "Topanga1685": {
+    "stucco": {
+      "url": "https://drive.google.com/file/d/1Y36mSK_avqHvKGHz6VRFXVbVv6Igc2tL/view?usp=drivesdk",
+      "severity": 3
+    },
+    "soil": {
+      "url": "https://drive.google.com/file/d/18IEAdmfsWQDXC1qrWVOVUUYiVL9gSYmK/view?usp=drivesdk",
+      "severity": 1
+    },
+    "windowsDoors": {
+      "url": "https://drive.google.com/file/d/17oZJVIyoG5rQENXdr_5xQKyC_3_S4QzF/view?usp=drivesdk",
+      "severity": 1
+    },
+    "roof": {
+      "url": "https://drive.google.com/file/d/17u3x-FwRNVijp-fk-6pM6EXqZ7Oqj06j/view?usp=drivesdk",
+      "severity": 2
+    },
+    "deck": {
+      "url": "https://drive.google.com/file/d/1tSdnPoyyQ_23VCTSRA4DDZUpL0cncJWd/view?usp=drivesdk",
+      "severity": 2
+    }
+  },
+  "Topanga1683": {
+    "stucco": {
+      "url": "https://drive.google.com/file/d/1YIlnJW3MTMIQmQ7lbzdOPpZpYDs8c1bc/view?usp=drivesdk",
+      "severity": 2
+    },
+    "windowsDoors": {
+      "url": "https://drive.google.com/file/d/17XpEfRCwm8d8fW61c81Y_0T0kVEOvbOG/view?usp=drivesdk",
+      "severity": 1
+    },
+    "deck": {
+      "url": "https://drive.google.com/file/d/17m5iuOjiVY_EnIXi-C8RSFbScg9AzLJJ/view?usp=drivesdk",
+      "severity": 2
+    },
+    "roof": {
+      "url": "https://drive.google.com/file/d/17fYQaC1g2Ngqg931JDNzz2qI17CY-CZE/view?usp=drivesdk",
+      "severity": 1
+    },
+    "adjImprove": {
+      "url": "https://drive.google.com/file/d/17LB7V7jcfmVFNlhMqi2AXduWmggoOfR5/view?usp=drivesdk",
+      "severity": 2
+    },
+    "soil": {
+      "url": "https://drive.google.com/file/d/1tP9N0KESzuRsVEAXKCTO-l6b5AnRqOEd/view?usp=drivesdk",
+      "severity": 2
+    }
+  },
+  "Topanga1681": {
+    "stucco": {
+      "url": "https://drive.google.com/file/d/1YOBDwHsDVy78IbCE-uVosEOOdZwZ9nCH/view?usp=drivesdk",
+      "severity": 2
+    },
+    "windowsDoors": {
+      "url": "https://drive.google.com/file/d/16qOZSvj2K4OXbWzpmk5ZgFTRn23nKKJt/view?usp=drivesdk",
+      "severity": 1
+    },
+    "roof": {
+      "url": "https://drive.google.com/file/d/16wLTX27IIMturyYkka3ZpXnl33rHzuMA/view?usp=drivesdk",
+      "severity": 1
+    },
+    "soil": {
+      "url": "https://drive.google.com/file/d/16kn8ZcAfDQAvumSQJkzCxdGelkjZ_fD4/view?usp=drivesdk",
+      "severity": 1
+    },
+    "deck": {
+      "url": "https://drive.google.com/file/d/16oYuSROkvMBmF2WDZkWN-J18Ua-7Xo2L/view?usp=drivesdk",
+      "severity": 1
+    },
+    "adjImprove": {
+      "url": "https://drive.google.com/file/d/16lAkImM2FmB8L7upl-9BhR_o0sPqdNZ3/view?usp=drivesdk",
+      "severity": 1
+    }
+  },
+  "Topanga1679": {
+    "stucco": {
+      "url": "https://drive.google.com/file/d/1YOjAegSl8RL6WIuxL3kMTwQkRl7W5TVw/view?usp=drivesdk",
+      "severity": 3
+    },
+    "windowsDoors": {
+      "url": "https://drive.google.com/file/d/1-wK79Xb9562m8dinuwAoqfIWk-qswA_W/view?usp=drivesdk",
+      "severity": 2
+    },
+    "deck": {
+      "url": "https://drive.google.com/file/d/1V3MBAKtJbOeTxU8mp-CghNV6LLOIzIYp/view?usp=drivesdk",
+      "severity": 2
+    },
+    "roof": {
+      "url": "https://drive.google.com/file/d/16do8VIGjLPPohW8gkS0vqmcJ2YJ4KRg2/view?usp=drivesdk",
+      "severity": 2
+    },
+    "soil": {
+      "url": "https://drive.google.com/file/d/1nkwf_dioy1dYjmbjLSawYXJuEpJAJAMt/view?usp=drivesdk",
+      "severity": 1
+    },
+    "adjImprove": {
+      "url": "https://drive.google.com/file/d/16F0ewiCb3wvO1YW-S_oXSUpWCcDzHLpk/view?usp=drivesdk",
+      "severity": 1
+    }
+  },
+  "Topanga1647": {
+    "stucco": {
+      "url": "https://drive.google.com/file/d/1YTyTaswdHR9i0l9zvgjt03GwoB-dNBGG/view?usp=drivesdk",
+      "severity": 2
+    },
+    "deck": {
+      "url": "https://drive.google.com/file/d/1LruioUi5gZdeyyOUBnP2KMT21EOOJvHn/view?usp=drivesdk",
+      "severity": 2
+    },
+    "soil": {
+      "url": "https://drive.google.com/file/d/1M-PDDd8F3qRWwJwhxUFDHZfCPt-zY1av/view?usp=drivesdk",
+      "severity": 2
+    },
+    "roof": {
+      "url": "https://drive.google.com/file/d/1LyeWnJZbAmBwphwfuVrFQ9AoODk8SPK9/view?usp=drivesdk",
+      "severity": 1
+    },
+    "adjImprove": {
+      "url": "https://drive.google.com/file/d/1LvdPoBBJEUeINmbk8bpGq2VVAR6eeh0c/view?usp=drivesdk",
+      "severity": 1
+    }
+  },
+  "Topanga1653": {
+    "stucco": {
+      "url": "https://drive.google.com/file/d/1Yc4UEx8hzm9PMlglSSpBXHXwK7saf0Zp/view?usp=drivesdk",
+      "severity": 2
+    },
+    "deck": {
+      "url": "https://drive.google.com/file/d/1McDj9QCL7hawleB8PLTfd6rEg7UA4dGh/view?usp=drivesdk",
+      "severity": 2
+    },
+    "roof": {
+      "url": "https://drive.google.com/file/d/1MZn1bVUCdtQknxIMgqvp9yrCGrlUI1e0/view?usp=drivesdk",
+      "severity": 1
+    },
+    "adjImprove": {
+      "url": "https://drive.google.com/file/d/1MfvZPYvdTHEWMI6ifv-TveRVJJHCQMZx/view?usp=drivesdk",
+      "severity": 1
+    }
+  },
+  "Topanga1655": {
+    "stucco": {
+      "url": "https://drive.google.com/file/d/1YjADVeA4Z2-26bSgn2oYEW52KrMP_JZu/view?usp=drivesdk",
+      "severity": 1
+    },
+    "deck": {
+      "url": "https://drive.google.com/file/d/1My_YlTKEl00GOdpKNVOiJ8o0jH0yINj5/view?usp=drivesdk",
+      "severity": 2
+    },
+    "roof": {
+      "url": "https://drive.google.com/file/d/1Mwx5qW5r2RLpOhfRHz9ApTjS-GKdTX66/view?usp=drivesdk",
+      "severity": 1
+    },
+    "soil": {
+      "url": "https://drive.google.com/file/d/1MvkrphiefFqIVruf9PNlZEDctRMf9mpO/view?usp=drivesdk",
+      "severity": 1
+    },
+    "adjImprove": {
+      "url": "https://drive.google.com/file/d/1Mg1SYYLF2teRzcZVxy-pL26A87NpwVxV/view?usp=drivesdk",
+      "severity": 1
+    }
+  },
+  "Topanga1660": {
+    "deck": {
+      "url": "https://drive.google.com/file/d/1Ymewmp_q8vnckFolJsQ5-fmB8lMbJMCr/view?usp=drivesdk",
+      "severity": 3
+    },
+    "stucco": {
+      "url": "https://drive.google.com/file/d/1FW2rEFvawT1YvDx5fx-HwqNWjq9oFAyP/view?usp=drivesdk",
+      "severity": 3
+    },
+    "windowsDoors": {
+      "url": "https://drive.google.com/file/d/1INRIzsCcj3RqqXrUrAjgUy7tbVOZylAU/view?usp=drivesdk",
+      "severity": 1
+    },
+    "soil": {
+      "url": "https://drive.google.com/file/d/1I_8uoVmo_WhC7gYQ-xTmJY0rAZllsnmJ/view?usp=drivesdk",
+      "severity": 1
+    },
+    "adjImprove": {
+      "url": "https://drive.google.com/file/d/1IHlteRRM-rXrEVqn36JyUXd_0Un3uwfK/view?usp=drivesdk",
+      "severity": 1
+    }
+  },
+  "Topanga1656": {
+    "stucco": {
+      "url": "https://drive.google.com/file/d/1YqWzZ_jGxmmiLYlZdML9JFvilsLFFDEx/view?usp=drivesdk",
+      "severity": 2
+    },
+    "deck": {
+      "url": "https://drive.google.com/file/d/1JGIirY-SFs3eAPEdGYF6Hxm0gJOURnd4/view?usp=drivesdk",
+      "severity": 2
+    },
+    "roof": {
+      "url": "https://drive.google.com/file/d/1Jn6o3kkKdpG9S1MZLs-6KpalNjhOd1Tr/view?usp=drivesdk",
+      "severity": 1
+    },
+    "soil": {
+      "url": "https://drive.google.com/file/d/1Jyd_TMQR4K7c-a6xHYSI9efnTtBBPiRp/view?usp=drivesdk",
+      "severity": 2
+    },
+    "adjImprove": {
+      "url": "https://drive.google.com/file/d/1JI1u0LzWf48suuXpfATztn39ZNNfEKzB/view?usp=drivesdk",
+      "severity": 1
+    }
+  },
+  "GrandView1673": {
+    "windowsDoors": {
+      "url": "https://drive.google.com/file/d/1YyHWs79WAkUnf6qaiOcWJPngop0FycTq/view?usp=drivesdk",
+      "severity": 2
+    },
+    "stucco": {
+      "url": "https://drive.google.com/file/d/1TIvcbeGMryZu6CGB6Ori84rfeQ9A0DcS/view?usp=drivesdk",
+      "severity": 1
+    },
+    "deck": {
+      "url": "https://drive.google.com/file/d/1OOw0rv2F2gm-VHRFanjvAhcRkjS0SZ27/view?usp=drivesdk",
+      "severity": 2
+    },
+    "adjImprove": {
+      "url": "https://drive.google.com/file/d/1OH-k_Iv5llrZRN2zrPg3MT5gVqTcSGi8/view?usp=drivesdk",
+      "severity": 2
+    }
+  },
+  "DohenySt687": {
+    "stucco": {
+      "url": "https://drive.google.com/file/d/1a3inSqlau7675B6sF9zG2ThHE4V6jI62/view?usp=drivesdk",
+      "severity": 2
+    },
+    "soil": {
+      "url": "https://drive.google.com/file/d/1Y4ejyLqrXhe2JNPmc2Sb5_WkpJVy1M3F/view?usp=drivesdk",
+      "severity": 1
+    },
+    "adjImprove": {
+      "url": "https://drive.google.com/file/d/1Ytb-OMNyDtfSFgxhm2-S0IzgFIJRT7iH/view?usp=drivesdk",
+      "severity": 2
+    },
+    "roof": {
+      "url": "https://drive.google.com/file/d/1YUfraZQ74zmC42hoHT3fdlqoY0q_UP9N/view?usp=drivesdk",
+      "severity": 2
+    },
+    "deck": {
+      "url": "https://drive.google.com/file/d/1VrLUTbvvAreLA2ZHe5tsw6OHgKD8b4ki/view?usp=drivesdk",
+      "severity": 2
+    }
+  },
+  "DohenySt681": {
+    "deck": {
+      "url": "https://drive.google.com/file/d/1Wz4cwDbl4n77SgiONsYcXVTq0mZZmQML/view?usp=drivesdk",
+      "severity": 2
+    },
+    "adjImprove": {
+      "url": "https://drive.google.com/file/d/1WdqDCfQH3zkPbUSL-7xg7nAuYCKwyAhQ/view?usp=drivesdk",
+      "severity": 1
+    },
+    "roof": {
+      "url": "https://drive.google.com/file/d/1X92_I3e8OKK-irawfvvSuuDE3LOu4P8T/view?usp=drivesdk",
+      "severity": 2
+    },
+    "soil": {
+      "url": "https://drive.google.com/file/d/1X5pD3KEHx3zdDcXs2B4vlwPBPIfxwSep/view?usp=drivesdk",
+      "severity": 3
+    },
+    "windowsDoors": {
+      "url": "https://drive.google.com/file/d/1WaXTRjoq_1tEwRz4zCVXf7Xv9ZL0Nq7X/view?usp=drivesdk",
+      "severity": 2
+    },
+    "stucco": {
+      "url": "https://drive.google.com/file/d/1seIgHWW12ck45foxsowCuLfNAM-vBmbJ/view?usp=drivesdk",
+      "severity": 3
+    }
+  },
+  "Moonlight1683": {
+    "adjImprove": {
+      "url": "https://drive.google.com/file/d/1BhhbPskFNwJr0tSqAHf3FeAQgKrwB41k/view?usp=drivesdk",
+      "severity": 1
+    },
+    "deck": {
+      "url": "https://drive.google.com/file/d/1BfcAVvCJqrNjWtQFeODIgcn0YfrdpduO/view?usp=drivesdk",
+      "severity": 2
+    },
+    "roof": {
+      "url": "https://drive.google.com/file/d/1BlLARfrVRa6FOogsg8DG6q0mGQG-dvsh/view?usp=drivesdk",
+      "severity": 2
+    },
+    "stucco": {
+      "url": "https://drive.google.com/file/d/1EOUIHwz_vmdO3oYuULrVnMjOdWNI-BzO/view?usp=drivesdk",
+      "severity": 2
+    }
+  },
+  "Topanga1649": {
+    "stucco": {
+      "url": "https://drive.google.com/file/d/1O8YmGz5mkSpjufJtmCcQAUmh_3DLG56A/view?usp=drivesdk",
+      "severity": 2
+    },
+    "adjImprove": {
+      "url": "https://drive.google.com/file/d/1qqD-NOT1ElWauVHjCmIs4MDDVkNJOgMH/view?usp=drivesdk",
+      "severity": 2
+    }
+  },
+  "Topanga1651": {
+    "stucco": {
+      "url": "https://drive.google.com/file/d/1O9aoBzS7Vn-X_a9HurW8DmKNW6OovTqr/view?usp=drivesdk",
+      "severity": 1
+    },
+    "deck": {
+      "url": "https://drive.google.com/file/d/1MHMvjXSXUIqhiQh1C9UzjdtKz4YODf2w/view?usp=drivesdk",
+      "severity": 1
+    },
+    "roof": {
+      "url": "https://drive.google.com/file/d/1MZW5hZ7Q-6X63uiqWeDy39csO36ayo8B/view?usp=drivesdk",
+      "severity": 1
+    },
+    "soil": {
+      "url": "https://drive.google.com/file/d/1MV32fdZeFiModT2FY4fkK-EqU0oncknH/view?usp=drivesdk",
+      "severity": 1
+    },
+    "windowsDoors": {
+      "url": "https://drive.google.com/file/d/1MZ0a4AE4qZtTx3mIgF9S6rsgiIs2MjJT/view?usp=drivesdk",
+      "severity": 1
+    },
+    "adjImprove": {
+      "url": "https://drive.google.com/file/d/1MFr4cwgQz2xrWmAXWmBvKL098kxWe5T1/view?usp=drivesdk",
+      "severity": 1
+    }
+  },
+  "Topanga1648": {
+    "stucco": {
+      "url": "https://drive.google.com/file/d/1PR192GcF3UFD6FW-deRvxE3Azt7NhiKO/view?usp=drivesdk",
+      "severity": 1
+    },
+    "deck": {
+      "url": "https://drive.google.com/file/d/1LJb2k5XAqO0d3wQLwq8MqcGZ6Fr080iD/view?usp=drivesdk",
+      "severity": 2
+    },
+    "roof": {
+      "url": "https://drive.google.com/file/d/1LD6CqInOHwPAxgWrKX9td93O8uU90Gb4/view?usp=drivesdk",
+      "severity": 1
+    },
+    "adjImprove": {
+      "url": "https://drive.google.com/file/d/1LLDdD-GofqYiP2tnhFX0Hj7ONyfdFxDN/view?usp=drivesdk",
+      "severity": 1
+    }
+  },
+  "Topanga1650": {
+    "stucco": {
+      "url": "https://drive.google.com/file/d/1PfvCR_MTT4Oc8SFqz3vyuos7UBtMX5Lb/view?usp=drivesdk",
+      "severity": 1
+    },
+    "deck": {
+      "url": "https://drive.google.com/file/d/1KuC6hfCJtAxv-__eB3v1EQFmFjYzvn_W/view?usp=drivesdk",
+      "severity": 2
+    },
+    "roof": {
+      "url": "https://drive.google.com/file/d/1Kc-B-QP297SC63GuaAo5lEL-O2DEx8A9/view?usp=drivesdk",
+      "severity": 1
+    },
+    "windowsDoors": {
+      "url": "https://drive.google.com/file/d/1L6MjqqklBfENUoPwjMag8FHDaOOPCn1N/view?usp=drivesdk",
+      "severity": 1
+    },
+    "soil": {
+      "url": "https://drive.google.com/file/d/1L5vd2LpO2F5snzUfUB6tlWCKRpCpkF-u/view?usp=drivesdk",
+      "severity": 1
+    },
+    "adjImprove": {
+      "url": "https://drive.google.com/file/d/1Ky0ysbQkJ3tz15cb0RRZojNJWvLl2i82/view?usp=drivesdk",
+      "severity": 1
+    }
+  },
+  "Topanga1652": {
+    "stucco": {
+      "url": "https://drive.google.com/file/d/1Pt4rikeKLu5VFLCEMn85vJp4BncyJrD3/view?usp=drivesdk",
+      "severity": 1
+    },
+    "deck": {
+      "url": "https://drive.google.com/file/d/1KbfbjZr40iaYGLl6sLjQCCMqfOYraFkQ/view?usp=drivesdk",
+      "severity": 2
+    },
+    "roof": {
+      "url": "https://drive.google.com/file/d/1Ka0CScJwc3FPfljchp7nutCNs-uQ9T0n/view?usp=drivesdk",
+      "severity": 1
+    },
+    "adjImprove": {
+      "url": "https://drive.google.com/file/d/1Kb8iRltOH4sQWu9xWGFi0YkBOSxR-ur7/view?usp=drivesdk",
+      "severity": 1
+    }
+  },
+  "Topanga1654": {
+    "stucco": {
+      "url": "https://drive.google.com/file/d/1Qas-zNipbxJ1lJ0Y1I2hngok2LHibMsO/view?usp=drivesdk",
+      "severity": 1
+    },
+    "roof": {
+      "url": "https://drive.google.com/file/d/1KBpjiG8McINtMaA_UnjRSDxFeM03lo96/view?usp=drivesdk",
+      "severity": 1
+    },
+    "windowsDoors": {
+      "url": "https://drive.google.com/file/d/1K6-4YR-0eqaoZMzar-dF0awYMLaprsYe/view?usp=drivesdk",
+      "severity": 1
+    },
+    "deck": {
+      "url": "https://drive.google.com/file/d/1KRqJepufOqnV27PREmZzGwK3jLUZtyf2/view?usp=drivesdk",
+      "severity": 2
+    },
+    "adjImprove": {
+      "url": "https://drive.google.com/file/d/1KP7d7WPcWC23xZ07x2gpJfDx_DKvP9Ae/view?usp=drivesdk",
+      "severity": 1
+    }
+  },
+  "Topanga1646": {
+    "stucco": {
+      "url": "https://drive.google.com/file/d/1PFpy0e3qt0cHr6WdhycD2kKo57Ha3_-9/view?usp=drivesdk",
+      "severity": 1
+    },
+    "roof": {
+      "url": "https://drive.google.com/file/d/1X7hI8OV31ERhtEYwTBENb7ueNK8dhmRo/view?usp=drivesdk",
+      "severity": 3
+    },
+    "deck": {
+      "url": "https://drive.google.com/file/d/1LUGkTWxIN0G-kJbuJDk78us6yUTRvrU6/view?usp=drivesdk",
+      "severity": 2
+    },
+    "windowsDoors": {
+      "url": "https://drive.google.com/file/d/1LlEOfulWChFcMZpo3mdbfO_4PmwL3whG/view?usp=drivesdk",
+      "severity": 1
+    },
+    "adjImprove": {
+      "url": "https://drive.google.com/file/d/1LUHJ2ynA0y86kKlIePAY3mTnU_FiGqqV/view?usp=drivesdk",
+      "severity": 2
+    }
+  },
+  "Topanga1684": {
+    "stucco": {
+      "url": "https://drive.google.com/file/d/1Tz8xyJYPalniVGwI_SQqv3fsRD9A0oVD/view?usp=drivesdk",
+      "severity": 1
+    },
+    "soil": {
+      "url": "https://drive.google.com/file/d/1u55Tqyw2skNSIg_CZAIEJP_208XqmvBf/view?usp=drivesdk",
+      "severity": 2
+    },
+    "deck": {
+      "url": "https://drive.google.com/file/d/1u3KXdqKIO7lo_DueqHYljqhFnmeDlcGV/view?usp=drivesdk",
+      "severity": 2
+    },
+    "roof": {
+      "url": "https://drive.google.com/file/d/1CIss87RFC0RkjrZuuASJW0KdMQTD61rS/view?usp=drivesdk",
+      "severity": 2
+    },
+    "windowsDoors": {
+      "url": "https://drive.google.com/file/d/1CIVGjf5lxtzN0tpalGVL_YMtB5CUD-JB/view?usp=drivesdk",
+      "severity": 1
+    },
+    "adjImprove": {
+      "url": "https://drive.google.com/file/d/1C5Vx5jdzhK5vwOx2iNzOAW7MUJnoCIYZ/view?usp=drivesdk",
+      "severity": 1
+    }
+  },
   "PamonaAve1690": {
     "adjImprove": {
       "url": "https://drive.google.com/file/d/148LFhWH6FUpUh0ao0Gq24NvV0dWMuG3o/view?usp=drivesdk",
@@ -261,16 +1075,6 @@
       "severity": 1
     }
   },
-  "PamonaAve1682": {
-    "stucco": {
-      "url": "https://drive.google.com/file/d/19VYH6AtRb4OgNR21LfeZem9gqkj386w5/view?usp=drivesdk",
-      "severity": 3
-    },
-    "windowsDoors": {
-      "url": "https://drive.google.com/file/d/1hj4lF5obA4kmE6uX8ZMjwp6XtVqn9W5o/view?usp=drivesdk",
-      "severity": 3
-    }
-  },
   "Moonlight1679": {
     "windowsDoors": {
       "url": "https://drive.google.com/file/d/14TmtFfBdDd-5UI7yh8yoEgI0D6qgK7In/view?usp=drivesdk",
@@ -371,6 +1175,16 @@
     "stucco": {
       "url": "https://drive.google.com/file/d/1erO2cQgwdxLtFmhGR_JLvRjgFsJf4HuU/view?usp=drivesdk",
       "severity": 1
+    }
+  },
+  "PamonaAve1682": {
+    "windowsDoors": {
+      "url": "https://drive.google.com/file/d/1hj4lF5obA4kmE6uX8ZMjwp6XtVqn9W5o/view?usp=drivesdk",
+      "severity": 3
+    },
+    "stucco": {
+      "url": "https://drive.google.com/file/d/19VYH6AtRb4OgNR21LfeZem9gqkj386w5/view?usp=drivesdk",
+      "severity": 3
     }
   },
   "Monarch1681": {
@@ -551,50 +1365,6 @@
       "severity": 2
     }
   },
-  "Topanga1668": {
-    "windowsDoors": {
-      "url": "https://drive.google.com/file/d/1W3brjg94TxoHwlTCLJ2Z-PUhnvjKBNLg/view?usp=drivesdk",
-      "severity": 2
-    },
-    "roof": {
-      "url": "https://drive.google.com/file/d/1GznmT4rYk4Y9UHyObSnQ_aZlbkpodqcy/view?usp=drivesdk",
-      "severity": 2
-    },
-    "stucco": {
-      "url": "https://drive.google.com/file/d/1HWuC_AOj0OBYqbrP4VlJZ0wXf7vlh4mt/view?usp=drivesdk",
-      "severity": 1
-    },
-    "deck": {
-      "url": "https://drive.google.com/file/d/1HOi8eyXRry8IfdU7UTGGdjzeT7akRsRE/view?usp=drivesdk",
-      "severity": 2
-    },
-    "adjImprove": {
-      "url": "https://drive.google.com/file/d/1H1TE-oJTo8S-QpShs3jswNDV_2g64lSv/view?usp=drivesdk",
-      "severity": 1
-    }
-  },
-  "Topanga1674": {
-    "windowsDoors": {
-      "url": "https://drive.google.com/file/d/1a6uDiIpBLe5-b1g24L2P0yk8y06d19v7/view?usp=drivesdk",
-      "severity": 3
-    },
-    "deck": {
-      "url": "https://drive.google.com/file/d/1uAhBSA6YQf4pc8PrMyHnMglWhuo3t1jr/view?usp=drivesdk",
-      "severity": 2
-    },
-    "roof": {
-      "url": "https://drive.google.com/file/d/1FX2KDgb-vAKAjhrdRjqrp6_xEnONomUw/view?usp=drivesdk",
-      "severity": 2
-    },
-    "soil": {
-      "url": "https://drive.google.com/file/d/1FbHtsLpAmtssU5I_eUfGTMczV-u3WTTN/view?usp=drivesdk",
-      "severity": 1
-    },
-    "adjImprove": {
-      "url": "https://drive.google.com/file/d/1FR9Q0v1NCzFIgckz-UIIC77E1JYV-4ex/view?usp=drivesdk",
-      "severity": 1
-    }
-  },
   "Topanga1676": {
     "windowsDoors": {
       "url": "https://drive.google.com/file/d/1NBGwXjhgXLJow9npoSPMuQAL2HeF9PpX/view?usp=drivesdk",
@@ -619,98 +1389,6 @@
     "soil": {
       "url": "https://drive.google.com/file/d/1ET-cwQzJPn5KM8ZChzzVQO5AybtTQZWx/view?usp=drivesdk",
       "severity": 2
-    }
-  },
-  "Topanga1679": {
-    "windowsDoors": {
-      "url": "https://drive.google.com/file/d/1-wK79Xb9562m8dinuwAoqfIWk-qswA_W/view?usp=drivesdk",
-      "severity": 2
-    },
-    "deck": {
-      "url": "https://drive.google.com/file/d/1V3MBAKtJbOeTxU8mp-CghNV6LLOIzIYp/view?usp=drivesdk",
-      "severity": 2
-    },
-    "roof": {
-      "url": "https://drive.google.com/file/d/16do8VIGjLPPohW8gkS0vqmcJ2YJ4KRg2/view?usp=drivesdk",
-      "severity": 2
-    },
-    "soil": {
-      "url": "https://drive.google.com/file/d/1nkwf_dioy1dYjmbjLSawYXJuEpJAJAMt/view?usp=drivesdk",
-      "severity": 1
-    },
-    "stucco": {
-      "url": "https://drive.google.com/file/d/16X6cdb8GxXxEk0d40VBvbrJP3N8tY2df/view?usp=drivesdk",
-      "severity": 1
-    },
-    "adjImprove": {
-      "url": "https://drive.google.com/file/d/16F0ewiCb3wvO1YW-S_oXSUpWCcDzHLpk/view?usp=drivesdk",
-      "severity": 1
-    }
-  },
-  "Topanga1680": {
-    "windowsDoors": {
-      "url": "https://drive.google.com/file/d/1REc4EtK5ZFvRY7D6IDnbRQh8gJdKz0dI/view?usp=drivesdk",
-      "severity": 2
-    },
-    "soil": {
-      "url": "https://drive.google.com/file/d/1u95r2FehwfRK2BCLbx70Yu3v6TY75fIx/view?usp=drivesdk",
-      "severity": 2
-    },
-    "deck": {
-      "url": "https://drive.google.com/file/d/1u7wmu9-62IVCa6IoMzTUT0qykWUoEtxm/view?usp=drivesdk",
-      "severity": 2
-    },
-    "roof": {
-      "url": "https://drive.google.com/file/d/1CrCaQW1YFvP4QoT641OApwqWv_yq_fV1/view?usp=drivesdk",
-      "severity": 2
-    },
-    "adjImprove": {
-      "url": "https://drive.google.com/file/d/1ChpdVhpMx1RczrkhmI9LX2oWJKllLUx4/view?usp=drivesdk",
-      "severity": 1
-    }
-  },
-  "Topanga1682": {
-    "windowsDoors": {
-      "url": "https://drive.google.com/file/d/15bP_F-o0i7qLVc_i9Gr_rPnOFVdn8xlF/view?usp=drivesdk",
-      "severity": 2
-    },
-    "deck": {
-      "url": "https://drive.google.com/file/d/1fvlZQVJm_3fn7dLH5ChaPmpueyBqf8l0/view?usp=drivesdk",
-      "severity": 2
-    },
-    "roof": {
-      "url": "https://drive.google.com/file/d/1CIvivh0V4DgxJb_InTbDXcEgEykySpYc/view?usp=drivesdk",
-      "severity": 2
-    },
-    "stucco": {
-      "url": "https://drive.google.com/file/d/1CYMAyjzt2wcb-1lOQU1rSY8zngs86tVN/view?usp=drivesdk",
-      "severity": 1
-    },
-    "adjImprove": {
-      "url": "https://drive.google.com/file/d/1CCNSn_B-1mHLatg0i5EAGeBUx12Uf-Zq/view?usp=drivesdk",
-      "severity": 1
-    }
-  },
-  "Topanga1688": {
-    "windowsDoors": {
-      "url": "https://drive.google.com/file/d/1B1vzlgRPpyG4kqpgfJBDsHUKSmcNjqaM/view?usp=drivesdk",
-      "severity": 3
-    },
-    "deck": {
-      "url": "https://drive.google.com/file/d/1u-moVCg8uTkQBRZfsXKoAhzSPTQoWm1T/view?usp=drivesdk",
-      "severity": 2
-    },
-    "roof": {
-      "url": "https://drive.google.com/file/d/1BLm39v7KOMYqBdqgFiy9QQPxk3WUY15G/view?usp=drivesdk",
-      "severity": 2
-    },
-    "soil": {
-      "url": "https://drive.google.com/file/d/1BUS3UQgqDfbIyOlg9FBNz4Tromsq8RFH/view?usp=drivesdk",
-      "severity": 2
-    },
-    "adjImprove": {
-      "url": "https://drive.google.com/file/d/1BUGjb-qgLMOXzqT_lXm1N9PjvXNmCBKE/view?usp=drivesdk",
-      "severity": 1
     }
   },
   "West17St645": {
@@ -899,50 +1577,6 @@
       "severity": 2
     }
   },
-  "Topanga1647": {
-    "stucco": {
-      "url": "https://drive.google.com/file/d/16U_8XrE1kJUW9klSWNHo7decR8_4qpgz/view?usp=drivesdk",
-      "severity": 1
-    },
-    "deck": {
-      "url": "https://drive.google.com/file/d/1LruioUi5gZdeyyOUBnP2KMT21EOOJvHn/view?usp=drivesdk",
-      "severity": 2
-    },
-    "soil": {
-      "url": "https://drive.google.com/file/d/1M-PDDd8F3qRWwJwhxUFDHZfCPt-zY1av/view?usp=drivesdk",
-      "severity": 2
-    },
-    "roof": {
-      "url": "https://drive.google.com/file/d/1LyeWnJZbAmBwphwfuVrFQ9AoODk8SPK9/view?usp=drivesdk",
-      "severity": 1
-    },
-    "adjImprove": {
-      "url": "https://drive.google.com/file/d/1LvdPoBBJEUeINmbk8bpGq2VVAR6eeh0c/view?usp=drivesdk",
-      "severity": 1
-    }
-  },
-  "Topanga1656": {
-    "stucco": {
-      "url": "https://drive.google.com/file/d/1GPjilRuzmRx5OR-eAsEIIo20eCpp1DwR/view?usp=drivesdk",
-      "severity": 1
-    },
-    "deck": {
-      "url": "https://drive.google.com/file/d/1JGIirY-SFs3eAPEdGYF6Hxm0gJOURnd4/view?usp=drivesdk",
-      "severity": 2
-    },
-    "roof": {
-      "url": "https://drive.google.com/file/d/1Jn6o3kkKdpG9S1MZLs-6KpalNjhOd1Tr/view?usp=drivesdk",
-      "severity": 1
-    },
-    "soil": {
-      "url": "https://drive.google.com/file/d/1Jyd_TMQR4K7c-a6xHYSI9efnTtBBPiRp/view?usp=drivesdk",
-      "severity": 2
-    },
-    "adjImprove": {
-      "url": "https://drive.google.com/file/d/1JI1u0LzWf48suuXpfATztn39ZNNfEKzB/view?usp=drivesdk",
-      "severity": 1
-    }
-  },
   "Topanga1658": {
     "stucco": {
       "url": "https://drive.google.com/file/d/1wFVKvKfGOANe4eh4indDFNc0LPADHk07/view?usp=drivesdk",
@@ -958,46 +1592,6 @@
     },
     "adjImprove": {
       "url": "https://drive.google.com/file/d/1IpTRZBrnJRYZTKkkMRIFe0z7scwEECt8/view?usp=drivesdk",
-      "severity": 1
-    }
-  },
-  "Topanga1660": {
-    "stucco": {
-      "url": "https://drive.google.com/file/d/1FW2rEFvawT1YvDx5fx-HwqNWjq9oFAyP/view?usp=drivesdk",
-      "severity": 3
-    },
-    "deck": {
-      "url": "https://drive.google.com/file/d/1IYNG8ljQw7OCDe3p_rPaFTN94A8LngV4/view?usp=drivesdk",
-      "severity": 2
-    },
-    "windowsDoors": {
-      "url": "https://drive.google.com/file/d/1INRIzsCcj3RqqXrUrAjgUy7tbVOZylAU/view?usp=drivesdk",
-      "severity": 1
-    },
-    "soil": {
-      "url": "https://drive.google.com/file/d/1I_8uoVmo_WhC7gYQ-xTmJY0rAZllsnmJ/view?usp=drivesdk",
-      "severity": 1
-    },
-    "adjImprove": {
-      "url": "https://drive.google.com/file/d/1IHlteRRM-rXrEVqn36JyUXd_0Un3uwfK/view?usp=drivesdk",
-      "severity": 1
-    }
-  },
-  "Topanga1686": {
-    "stucco": {
-      "url": "https://drive.google.com/file/d/1n0BqOD3DNDukM0jiwBfqOpa5GpzW6jOc/view?usp=drivesdk",
-      "severity": 1
-    },
-    "deck": {
-      "url": "https://drive.google.com/file/d/141UMX3T_An-pF4hmEl-6LogRxLavXfSy/view?usp=drivesdk",
-      "severity": 3
-    },
-    "windowsDoors": {
-      "url": "https://drive.google.com/file/d/1e697jth7fnVYTBnYImXomWFe9TtkelLO/view?usp=drivesdk",
-      "severity": 2
-    },
-    "soil": {
-      "url": "https://drive.google.com/file/d/1u-qeQ8ul1KbvAsGzWURxonl2q_dD4MQT/view?usp=drivesdk",
       "severity": 1
     }
   },
@@ -1124,48 +1718,6 @@
     },
     "roof": {
       "url": "https://drive.google.com/file/d/1uPTAulO7GdQH7UzavyFBoy20g1VhbT6e/view?usp=drivesdk",
-      "severity": 2
-    }
-  },
-  "Topanga1649": {
-    "adjImprove": {
-      "url": "https://drive.google.com/file/d/1qqD-NOT1ElWauVHjCmIs4MDDVkNJOgMH/view?usp=drivesdk",
-      "severity": 2
-    }
-  },
-  "Topanga1664": {
-    "adjImprove": {
-      "url": "https://drive.google.com/file/d/1hDxfwQsaxs7hbep7zMeJfg8C0kRWM6YN/view?usp=drivesdk",
-      "severity": 3
-    },
-    "deck": {
-      "url": "https://drive.google.com/file/d/1HisonlRrZjtw5_0VHYHqig8UB9tllGRV/view?usp=drivesdk",
-      "severity": 2
-    },
-    "stucco": {
-      "url": "https://drive.google.com/file/d/1H_Bs3IMaJqGI0R_oMWWPgpZUYiYCiWLZ/view?usp=drivesdk",
-      "severity": 1
-    },
-    "windowsDoors": {
-      "url": "https://drive.google.com/file/d/1HZB_tMLx2q32uVwPNkmC6FjYJIeAQ2vB/view?usp=drivesdk",
-      "severity": 1
-    }
-  },
-  "Topanga1670": {
-    "adjImprove": {
-      "url": "https://drive.google.com/file/d/1qSahvB2oR8Ov47GsHTaNuQKJ1m6P4Xz9/view?usp=drivesdk",
-      "severity": 2
-    },
-    "roof": {
-      "url": "https://drive.google.com/file/d/1Gqhe5Re4xw7Kyc-Zi4U1sWbilKHTwvi_/view?usp=drivesdk",
-      "severity": 2
-    },
-    "stucco": {
-      "url": "https://drive.google.com/file/d/1Gv9wAUXexv2vmfIBSJHylzNzRZmozb-q/view?usp=drivesdk",
-      "severity": 1
-    },
-    "deck": {
-      "url": "https://drive.google.com/file/d/1GlfUdaWeAzN12cfsMy0RWzJ_qL21kPSp/view?usp=drivesdk",
       "severity": 2
     }
   },
@@ -1547,28 +2099,6 @@
       "severity": 2
     }
   },
-  "DohenySt689": {
-    "adjImprove": {
-      "url": "https://drive.google.com/file/d/19fhxAgtHQxlUDOYs_KZ6g_qg6O3hOH_Y/view?usp=drivesdk",
-      "severity": 2
-    }
-  },
-  "DohenySt687": {
-    "deck": {
-      "url": "https://drive.google.com/file/d/1VrLUTbvvAreLA2ZHe5tsw6OHgKD8b4ki/view?usp=drivesdk",
-      "severity": 2
-    }
-  },
-  "DohenySt683": {
-    "deck": {
-      "url": "https://drive.google.com/file/d/1Kw5vDzq0MAjozdUi1nkqkkhFs59hR_qp/view?usp=drivesdk",
-      "severity": 2
-    },
-    "adjImprove": {
-      "url": "https://drive.google.com/file/d/1eNA6MH_QcP0WPjAoZriiTIPaM1aZZx6I/view?usp=drivesdk",
-      "severity": 2
-    }
-  },
   "Monarch1685": {
     "soil": {
       "url": "https://drive.google.com/file/d/1-tTq6ARV_9lnOw8nnOTCxKFNEZOeZIiV/view?usp=drivesdk",
@@ -1589,12 +2119,6 @@
     "adjImprove": {
       "url": "https://drive.google.com/file/d/1n1MY9dBJO604QiNxbVfRd0oaOgvKLi41/view?usp=drivesdk",
       "severity": 2
-    }
-  },
-  "DohenySt681": {
-    "stucco": {
-      "url": "https://drive.google.com/file/d/1seIgHWW12ck45foxsowCuLfNAM-vBmbJ/view?usp=drivesdk",
-      "severity": 3
     }
   },
   "Monarch1679": {
@@ -1638,24 +2162,6 @@
     },
     "deck": {
       "url": "https://drive.google.com/file/d/1_aKDExTlujwT3lP1ph-MsVes-atQ-ep2/view?usp=drivesdk",
-      "severity": 2
-    }
-  },
-  "Topanga1646": {
-    "roof": {
-      "url": "https://drive.google.com/file/d/1X7hI8OV31ERhtEYwTBENb7ueNK8dhmRo/view?usp=drivesdk",
-      "severity": 3
-    },
-    "deck": {
-      "url": "https://drive.google.com/file/d/1LUGkTWxIN0G-kJbuJDk78us6yUTRvrU6/view?usp=drivesdk",
-      "severity": 2
-    },
-    "windowsDoors": {
-      "url": "https://drive.google.com/file/d/1LlEOfulWChFcMZpo3mdbfO_4PmwL3whG/view?usp=drivesdk",
-      "severity": 1
-    },
-    "adjImprove": {
-      "url": "https://drive.google.com/file/d/1LUHJ2ynA0y86kKlIePAY3mTnU_FiGqqV/view?usp=drivesdk",
       "severity": 2
     }
   },
@@ -1805,28 +2311,6 @@
       "severity": 2
     }
   },
-  "Topanga1672": {
-    "deck": {
-      "url": "https://drive.google.com/file/d/1uBbqm8-PcVrGZo2o-Jgg670H7rXhLkuP/view?usp=drivesdk",
-      "severity": 2
-    },
-    "stucco": {
-      "url": "https://drive.google.com/file/d/1G89r4a5cOnzU71DwaU3mfH7_W6azPVu4/view?usp=drivesdk",
-      "severity": 1
-    },
-    "soil": {
-      "url": "https://drive.google.com/file/d/1G2DoUSFljQQcozQLiwrCEvjTn0wS6oSy/view?usp=drivesdk",
-      "severity": 1
-    },
-    "windowsDoors": {
-      "url": "https://drive.google.com/file/d/1GCi6kjorbSijs00o3h3_TR8FMfRTJyfj/view?usp=drivesdk",
-      "severity": 1
-    },
-    "adjImprove": {
-      "url": "https://drive.google.com/file/d/1G9pQ94nKMrNNXG-P7zJt3HNmNzP2MRhC/view?usp=drivesdk",
-      "severity": 1
-    }
-  },
   "West17St665": {
     "deck": {
       "url": "https://drive.google.com/file/d/1z6naLYWy2hSyh_X8o-wNL4lvElgPguny/view?usp=drivesdk",
@@ -1925,28 +2409,6 @@
       "severity": 1
     }
   },
-  "Topanga1684": {
-    "soil": {
-      "url": "https://drive.google.com/file/d/1u55Tqyw2skNSIg_CZAIEJP_208XqmvBf/view?usp=drivesdk",
-      "severity": 2
-    },
-    "deck": {
-      "url": "https://drive.google.com/file/d/1u3KXdqKIO7lo_DueqHYljqhFnmeDlcGV/view?usp=drivesdk",
-      "severity": 2
-    },
-    "roof": {
-      "url": "https://drive.google.com/file/d/1CIss87RFC0RkjrZuuASJW0KdMQTD61rS/view?usp=drivesdk",
-      "severity": 2
-    },
-    "windowsDoors": {
-      "url": "https://drive.google.com/file/d/1CIVGjf5lxtzN0tpalGVL_YMtB5CUD-JB/view?usp=drivesdk",
-      "severity": 1
-    },
-    "adjImprove": {
-      "url": "https://drive.google.com/file/d/1C5Vx5jdzhK5vwOx2iNzOAW7MUJnoCIYZ/view?usp=drivesdk",
-      "severity": 1
-    }
-  },
   "Wedge661": {
     "soil": {
       "url": "https://drive.google.com/file/d/1yUOoQIdhHky0BCDGfsXIW_VMflCaG5Zd/view?usp=drivesdk",
@@ -1977,76 +2439,6 @@
     "stucco": {
       "url": "https://drive.google.com/file/d/1VV56bZH5DvxWMHd1aekxFYu1zB4xf9ep/view?usp=drivesdk",
       "severity": 3
-    }
-  },
-  "Topanga1681": {
-    "windowsDoors": {
-      "url": "https://drive.google.com/file/d/16qOZSvj2K4OXbWzpmk5ZgFTRn23nKKJt/view?usp=drivesdk",
-      "severity": 1
-    },
-    "roof": {
-      "url": "https://drive.google.com/file/d/16wLTX27IIMturyYkka3ZpXnl33rHzuMA/view?usp=drivesdk",
-      "severity": 1
-    },
-    "Stucco": {
-      "url": "https://drive.google.com/file/d/171nY2NmqQ7x9onoKacZZaNl4TbElBDA9/view?usp=drivesdk",
-      "severity": 1
-    },
-    "soil": {
-      "url": "https://drive.google.com/file/d/16kn8ZcAfDQAvumSQJkzCxdGelkjZ_fD4/view?usp=drivesdk",
-      "severity": 1
-    },
-    "deck": {
-      "url": "https://drive.google.com/file/d/16oYuSROkvMBmF2WDZkWN-J18Ua-7Xo2L/view?usp=drivesdk",
-      "severity": 1
-    },
-    "adjImprove": {
-      "url": "https://drive.google.com/file/d/16lAkImM2FmB8L7upl-9BhR_o0sPqdNZ3/view?usp=drivesdk",
-      "severity": 1
-    }
-  },
-  "Topanga1683": {
-    "windowsDoors": {
-      "url": "https://drive.google.com/file/d/17XpEfRCwm8d8fW61c81Y_0T0kVEOvbOG/view?usp=drivesdk",
-      "severity": 1
-    },
-    "deck": {
-      "url": "https://drive.google.com/file/d/17m5iuOjiVY_EnIXi-C8RSFbScg9AzLJJ/view?usp=drivesdk",
-      "severity": 2
-    },
-    "roof": {
-      "url": "https://drive.google.com/file/d/17fYQaC1g2Ngqg931JDNzz2qI17CY-CZE/view?usp=drivesdk",
-      "severity": 1
-    },
-    "adjImprove": {
-      "url": "https://drive.google.com/file/d/17LB7V7jcfmVFNlhMqi2AXduWmggoOfR5/view?usp=drivesdk",
-      "severity": 2
-    },
-    "soil": {
-      "url": "https://drive.google.com/file/d/1tP9N0KESzuRsVEAXKCTO-l6b5AnRqOEd/view?usp=drivesdk",
-      "severity": 2
-    }
-  },
-  "Topanga1685": {
-    "soil": {
-      "url": "https://drive.google.com/file/d/18IEAdmfsWQDXC1qrWVOVUUYiVL9gSYmK/view?usp=drivesdk",
-      "severity": 1
-    },
-    "windowsDoors": {
-      "url": "https://drive.google.com/file/d/17oZJVIyoG5rQENXdr_5xQKyC_3_S4QzF/view?usp=drivesdk",
-      "severity": 1
-    },
-    "roof": {
-      "url": "https://drive.google.com/file/d/17u3x-FwRNVijp-fk-6pM6EXqZ7Oqj06j/view?usp=drivesdk",
-      "severity": 2
-    },
-    "deck": {
-      "url": "https://drive.google.com/file/d/1tSdnPoyyQ_23VCTSRA4DDZUpL0cncJWd/view?usp=drivesdk",
-      "severity": 2
-    },
-    "stucco": {
-      "url": "https://drive.google.com/file/d/1tnIfLpjH5ZPskWc5f3lwYU2In1eRmEsf/view?usp=drivesdk",
-      "severity": 2
     }
   },
   "Wedge664": {
@@ -2133,26 +2525,6 @@
       "severity": 3
     }
   },
-  "moonlight1683": {
-    "adjImprove": {
-      "url": "https://drive.google.com/file/d/1BhhbPskFNwJr0tSqAHf3FeAQgKrwB41k/view?usp=drivesdk",
-      "severity": 1
-    }
-  },
-  "Moonlight1683": {
-    "deck": {
-      "url": "https://drive.google.com/file/d/1BfcAVvCJqrNjWtQFeODIgcn0YfrdpduO/view?usp=drivesdk",
-      "severity": 2
-    },
-    "roof": {
-      "url": "https://drive.google.com/file/d/1BlLARfrVRa6FOogsg8DG6q0mGQG-dvsh/view?usp=drivesdk",
-      "severity": 2
-    },
-    "stucco": {
-      "url": "https://drive.google.com/file/d/1EOUIHwz_vmdO3oYuULrVnMjOdWNI-BzO/view?usp=drivesdk",
-      "severity": 2
-    }
-  },
   "Moonlight1681": {
     "deck": {
       "url": "https://drive.google.com/file/d/1BtwyP-7KGN2aCfKSQKig03SNJeSOen4N/view?usp=drivesdk",
@@ -2219,118 +2591,6 @@
     "stucco": {
       "url": "https://drive.google.com/file/d/1y5WDhm1TR7iW1qB7X0yBoUe9K5oFmxNa/view?usp=drivesdk",
       "severity": 2
-    }
-  },
-  "DohenyStSt681": {
-    "adjImprove": {
-      "url": "https://drive.google.com/file/d/1WdqDCfQH3zkPbUSL-7xg7nAuYCKwyAhQ/view?usp=drivesdk",
-      "severity": 1
-    },
-    "deck": {
-      "url": "https://drive.google.com/file/d/1Wz4cwDbl4n77SgiONsYcXVTq0mZZmQML/view?usp=drivesdk",
-      "severity": 2
-    },
-    "soil": {
-      "url": "https://drive.google.com/file/d/1X5pD3KEHx3zdDcXs2B4vlwPBPIfxwSep/view?usp=drivesdk",
-      "severity": 3
-    },
-    "roof": {
-      "url": "https://drive.google.com/file/d/1X92_I3e8OKK-irawfvvSuuDE3LOu4P8T/view?usp=drivesdk",
-      "severity": 2
-    },
-    "windowsDoors": {
-      "url": "https://drive.google.com/file/d/1WaXTRjoq_1tEwRz4zCVXf7Xv9ZL0Nq7X/view?usp=drivesdk",
-      "severity": 2
-    }
-  },
-  "DohenyStSt683": {
-    "soil": {
-      "url": "https://drive.google.com/file/d/1XQ5i889FISSRxHGWFUXw158h6_0R6QW_/view?usp=drivesdk",
-      "severity": 1
-    },
-    "roof": {
-      "url": "https://drive.google.com/file/d/1Vi97SDD4zCXioHq0bkw5oPURopwX-u79/view?usp=drivesdk",
-      "severity": 2
-    },
-    "stucco": {
-      "url": "https://drive.google.com/file/d/1Vw9guAT8hWKx0iihyHumUIaCR1cECE91/view?usp=drivesdk",
-      "severity": 2
-    }
-  },
-  "DohenyStSt685": {
-    "adjImprove": {
-      "url": "https://drive.google.com/file/d/1XjWNlwdr5Gr8PauTYNi3W-PjS_26kqaa/view?usp=drivesdk",
-      "severity": 1
-    },
-    "deck": {
-      "url": "https://drive.google.com/file/d/1XT8nEZuL4llXBY8yosM2wYUuj9ctN-hP/view?usp=drivesdk",
-      "severity": 1
-    },
-    "roof": {
-      "url": "https://drive.google.com/file/d/1XzLdbh98MZCbGsF8ZXH1kRz06MviTpox/view?usp=drivesdk",
-      "severity": 2
-    },
-    "soil": {
-      "url": "https://drive.google.com/file/d/1Y3nvsBC4kc3sK6p9op2J1arAmYB70Iqp/view?usp=drivesdk",
-      "severity": 2
-    },
-    "windowsDoors": {
-      "url": "https://drive.google.com/file/d/1XrRdQACmvIP-cvmYWHWDjfalEIonPa_B/view?usp=drivesdk",
-      "severity": 2
-    },
-    "stucco": {
-      "url": "https://drive.google.com/file/d/1Vw-f6k0K3A5advElZdvIa_-RZYV9VnOs/view?usp=drivesdk",
-      "severity": 2
-    }
-  },
-  "DohenyStSt687": {
-    "soil": {
-      "url": "https://drive.google.com/file/d/1Y4ejyLqrXhe2JNPmc2Sb5_WkpJVy1M3F/view?usp=drivesdk",
-      "severity": 1
-    },
-    "roof": {
-      "url": "https://drive.google.com/file/d/1YUfraZQ74zmC42hoHT3fdlqoY0q_UP9N/view?usp=drivesdk",
-      "severity": 2
-    },
-    "adjImprove": {
-      "url": "https://drive.google.com/file/d/1Ytb-OMNyDtfSFgxhm2-S0IzgFIJRT7iH/view?usp=drivesdk",
-      "severity": 2
-    },
-    "stucco": {
-      "url": "https://drive.google.com/file/d/1a3inSqlau7675B6sF9zG2ThHE4V6jI62/view?usp=drivesdk",
-      "severity": 2
-    }
-  },
-  "DohenyStSt689": {
-    "deck": {
-      "url": "https://drive.google.com/file/d/1ZHZivdsv6I7243X5E-nRbhI5opTG64tn/view?usp=drivesdk",
-      "severity": 2
-    },
-    "roof": {
-      "url": "https://drive.google.com/file/d/1ZHjXKhDeXtoSZvdh_AzWGKGXcFW20nBV/view?usp=drivesdk",
-      "severity": 2
-    },
-    "stucco": {
-      "url": "https://drive.google.com/file/d/1VivRACCJOxsWXm6fDhIA3I4EJ8k6a34T/view?usp=drivesdk",
-      "severity": 2
-    }
-  },
-  "DohenyStSt691": {
-    "roof": {
-      "url": "https://drive.google.com/file/d/1ZqsLNMy1bC-lfhK3mMN1KSKVaxZmgAIj/view?usp=drivesdk",
-      "severity": 2
-    },
-    "deck": {
-      "url": "https://drive.google.com/file/d/1_NQiNr8kfximzQvlcIFG-zw_a6eAMH9R/view?usp=drivesdk",
-      "severity": 2
-    },
-    "adjImprove": {
-      "url": "https://drive.google.com/file/d/1_UiDoH1VKmWtMalj1RLn_MMImr4Mb8PX/view?usp=drivesdk",
-      "severity": 1
-    },
-    "stucco": {
-      "url": "https://drive.google.com/file/d/1Vis8-34y51a_1ecrpNk0gjoHG28CwrY4/view?usp=drivesdk",
-      "severity": 3
     }
   },
   "West17St681": {
@@ -2403,32 +2663,6 @@
       "severity": 2
     }
   },
-  "Topanga1687": {
-    "deck": {
-      "url": "https://drive.google.com/file/d/18VFLjMnnXo888zzjaqDetDW8b4ZcBUuD/view?usp=drivesdk",
-      "severity": 1
-    },
-    "adjImprove": {
-      "url": "https://drive.google.com/file/d/18NEFu1DYpKywVrWWadyw4IfabhCeRc4u/view?usp=drivesdk",
-      "severity": 1
-    },
-    "roof": {
-      "url": "https://drive.google.com/file/d/1tXc5bLk8nxxp2ddAg09Esmhvh8YjcNJa/view?usp=drivesdk",
-      "severity": 2
-    },
-    "windowsDoors": {
-      "url": "https://drive.google.com/file/d/1t_IVFTj4YXB3NkYeAG9IKkbZxEk-HwR-/view?usp=drivesdk",
-      "severity": 1
-    },
-    "stucco": {
-      "url": "https://drive.google.com/file/d/1tjQq1vpOoqMirY8JkfbogxedyxrEhP79/view?usp=drivesdk",
-      "severity": 1
-    },
-    "soil": {
-      "url": "https://drive.google.com/file/d/1tjorOVMm3tyc5adfrTxkTtHfuF5MjY9_/view?usp=drivesdk",
-      "severity": 1
-    }
-  },
   "GrandView1685": {
     "adjImprove": {
       "url": "https://drive.google.com/file/d/1KyBYMVdYTPMrSn5SujSYQV9f-GYRmoUE/view?usp=drivesdk",
@@ -2475,38 +2709,6 @@
       "severity": 1
     }
   },
-  "Topanga1678": {
-    "deck": {
-      "url": "https://drive.google.com/file/d/1E0vQcd3H_j-s18pu9dhXLpNpWjgCn4pk/view?usp=drivesdk",
-      "severity": 2
-    },
-    "roof": {
-      "url": "https://drive.google.com/file/d/1DqySlNAl8o5F4eXY2z8PyRLQfh3jmcJz/view?usp=drivesdk",
-      "severity": 2
-    },
-    "windowsDoors": {
-      "url": "https://drive.google.com/file/d/1E8251rVs6hxYbl3bzt5gIKTtWYJEV4Bo/view?usp=drivesdk",
-      "severity": 1
-    },
-    "stucco": {
-      "url": "https://drive.google.com/file/d/1DqF_pcB6Wuh-oAeoYL2PW81WEDitvsYr/view?usp=drivesdk",
-      "severity": 1
-    },
-    "soil": {
-      "url": "https://drive.google.com/file/d/1E8N8b-j4gA5OQv76v63jCDtWcQOK-uhg/view?usp=drivesdk",
-      "severity": 2
-    },
-    "adjImprove": {
-      "url": "https://drive.google.com/file/d/1DegFwRYy7AtsFIIEY2zNe8OwmFwV6dFo/view?usp=drivesdk",
-      "severity": 1
-    }
-  },
-  "GrandView1673": {
-    "adjImprove": {
-      "url": "https://drive.google.com/file/d/1OH-k_Iv5llrZRN2zrPg3MT5gVqTcSGi8/view?usp=drivesdk",
-      "severity": 2
-    }
-  },
   "GrandView1669": {
     "adjImprove": {
       "url": "https://drive.google.com/file/d/1Pgse4l9BzK1p0s9xSQfLrXZ95NYQGIrC/view?usp=drivesdk",
@@ -2536,154 +2738,6 @@
     },
     "stucco": {
       "url": "https://drive.google.com/file/d/1SpCmdh1JBs12OfI7b970Cy6e8IoMVHst/view?usp=drivesdk",
-      "severity": 1
-    }
-  },
-  "Topanga1662": {
-    "deck": {
-      "url": "https://drive.google.com/file/d/1IFZ1PvCqsgttcgsAxbmUqJ1Fzxu2A8Kh/view?usp=drivesdk",
-      "severity": 2
-    },
-    "soil": {
-      "url": "https://drive.google.com/file/d/1HxgQMRFp8Mwd4HhIaqtaW28UKigBa3ow/view?usp=drivesdk",
-      "severity": 1
-    },
-    "roof": {
-      "url": "https://drive.google.com/file/d/1IDZAZvQAL_EyDjCVbhJ0GBOgVZrmzecg/view?usp=drivesdk",
-      "severity": 1
-    },
-    "adjImprove": {
-      "url": "https://drive.google.com/file/d/1I03DEfG141DJW1fl1aOnMvSYDDOOwPmw/view?usp=drivesdk",
-      "severity": 1
-    }
-  },
-  "Topanga1654": {
-    "roof": {
-      "url": "https://drive.google.com/file/d/1KBpjiG8McINtMaA_UnjRSDxFeM03lo96/view?usp=drivesdk",
-      "severity": 1
-    },
-    "windowsDoors": {
-      "url": "https://drive.google.com/file/d/1K6-4YR-0eqaoZMzar-dF0awYMLaprsYe/view?usp=drivesdk",
-      "severity": 1
-    },
-    "deck": {
-      "url": "https://drive.google.com/file/d/1KRqJepufOqnV27PREmZzGwK3jLUZtyf2/view?usp=drivesdk",
-      "severity": 2
-    },
-    "adjImprove": {
-      "url": "https://drive.google.com/file/d/1KP7d7WPcWC23xZ07x2gpJfDx_DKvP9Ae/view?usp=drivesdk",
-      "severity": 1
-    }
-  },
-  "Topanga1652": {
-    "deck": {
-      "url": "https://drive.google.com/file/d/1KbfbjZr40iaYGLl6sLjQCCMqfOYraFkQ/view?usp=drivesdk",
-      "severity": 2
-    },
-    "roof": {
-      "url": "https://drive.google.com/file/d/1Ka0CScJwc3FPfljchp7nutCNs-uQ9T0n/view?usp=drivesdk",
-      "severity": 1
-    },
-    "adjImprove": {
-      "url": "https://drive.google.com/file/d/1Kb8iRltOH4sQWu9xWGFi0YkBOSxR-ur7/view?usp=drivesdk",
-      "severity": 1
-    }
-  },
-  "Topanga1650": {
-    "deck": {
-      "url": "https://drive.google.com/file/d/1KuC6hfCJtAxv-__eB3v1EQFmFjYzvn_W/view?usp=drivesdk",
-      "severity": 2
-    },
-    "roof": {
-      "url": "https://drive.google.com/file/d/1Kc-B-QP297SC63GuaAo5lEL-O2DEx8A9/view?usp=drivesdk",
-      "severity": 1
-    },
-    "windowsDoors": {
-      "url": "https://drive.google.com/file/d/1L6MjqqklBfENUoPwjMag8FHDaOOPCn1N/view?usp=drivesdk",
-      "severity": 1
-    },
-    "soil": {
-      "url": "https://drive.google.com/file/d/1L5vd2LpO2F5snzUfUB6tlWCKRpCpkF-u/view?usp=drivesdk",
-      "severity": 1
-    },
-    "adjImprove": {
-      "url": "https://drive.google.com/file/d/1Ky0ysbQkJ3tz15cb0RRZojNJWvLl2i82/view?usp=drivesdk",
-      "severity": 1
-    }
-  },
-  "Topanga1648": {
-    "deck": {
-      "url": "https://drive.google.com/file/d/1LJb2k5XAqO0d3wQLwq8MqcGZ6Fr080iD/view?usp=drivesdk",
-      "severity": 2
-    },
-    "roof": {
-      "url": "https://drive.google.com/file/d/1LD6CqInOHwPAxgWrKX9td93O8uU90Gb4/view?usp=drivesdk",
-      "severity": 1
-    },
-    "adjImprove": {
-      "url": "https://drive.google.com/file/d/1LLDdD-GofqYiP2tnhFX0Hj7ONyfdFxDN/view?usp=drivesdk",
-      "severity": 1
-    }
-  },
-  "Topanga1651": {
-    "deck": {
-      "url": "https://drive.google.com/file/d/1MHMvjXSXUIqhiQh1C9UzjdtKz4YODf2w/view?usp=drivesdk",
-      "severity": 1
-    },
-    "roof": {
-      "url": "https://drive.google.com/file/d/1MZW5hZ7Q-6X63uiqWeDy39csO36ayo8B/view?usp=drivesdk",
-      "severity": 1
-    },
-    "soil": {
-      "url": "https://drive.google.com/file/d/1MV32fdZeFiModT2FY4fkK-EqU0oncknH/view?usp=drivesdk",
-      "severity": 1
-    },
-    "windowsDoors": {
-      "url": "https://drive.google.com/file/d/1MZ0a4AE4qZtTx3mIgF9S6rsgiIs2MjJT/view?usp=drivesdk",
-      "severity": 1
-    },
-    "adjImprove": {
-      "url": "https://drive.google.com/file/d/1MFr4cwgQz2xrWmAXWmBvKL098kxWe5T1/view?usp=drivesdk",
-      "severity": 1
-    }
-  },
-  "Topanga1653": {
-    "deck": {
-      "url": "https://drive.google.com/file/d/1McDj9QCL7hawleB8PLTfd6rEg7UA4dGh/view?usp=drivesdk",
-      "severity": 2
-    },
-    "roof": {
-      "url": "https://drive.google.com/file/d/1MZn1bVUCdtQknxIMgqvp9yrCGrlUI1e0/view?usp=drivesdk",
-      "severity": 1
-    },
-    "stucco": {
-      "url": "https://drive.google.com/file/d/1MpqOeVhbNUKnRAcyJ7G1hISyspaRPZ-a/view?usp=drivesdk",
-      "severity": 1
-    },
-    "adjImprove": {
-      "url": "https://drive.google.com/file/d/1MfvZPYvdTHEWMI6ifv-TveRVJJHCQMZx/view?usp=drivesdk",
-      "severity": 1
-    }
-  },
-  "Topanga1655": {
-    "deck": {
-      "url": "https://drive.google.com/file/d/1My_YlTKEl00GOdpKNVOiJ8o0jH0yINj5/view?usp=drivesdk",
-      "severity": 2
-    },
-    "roof": {
-      "url": "https://drive.google.com/file/d/1Mwx5qW5r2RLpOhfRHz9ApTjS-GKdTX66/view?usp=drivesdk",
-      "severity": 1
-    },
-    "soil": {
-      "url": "https://drive.google.com/file/d/1MvkrphiefFqIVruf9PNlZEDctRMf9mpO/view?usp=drivesdk",
-      "severity": 1
-    },
-    "stucco": {
-      "url": "https://drive.google.com/file/d/1NDG2eiFiAQHdDa2hhcuunjcpOsRqtC16/view?usp=drivesdk",
-      "severity": 2
-    },
-    "adjImprove": {
-      "url": "https://drive.google.com/file/d/1Mg1SYYLF2teRzcZVxy-pL26A87NpwVxV/view?usp=drivesdk",
       "severity": 1
     }
   },

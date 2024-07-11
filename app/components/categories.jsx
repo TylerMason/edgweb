@@ -10,7 +10,8 @@ const Categories = ({ selectedCategory, setSelectedCategory }) => {
     { display: "Decks", key: "deck" },
     { display: "Roof", key: "roof" },
     { display: "Soil", key: "soil" },
-    { display: "Adj Improvements", key: "adjImprove" },
+    { display: "Patio Wall", key: "adjImprove" },
+    { display: "None", key: "none"}
   ];
 
   return (
