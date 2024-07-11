@@ -14,17 +14,17 @@ export default function HomePage() {
   const router = useRouter();
   const [selectedCategory, setSelectedCategory] = useState(null);
 
-  let colours = "bg-green-500 bg-red-500 bg-pink-500 bg-blue-500 bg-purple-500 fill-green-500 fill-red-500 fill-blue-500 fill-pink-500 fill-purple-500"
+  let colours = "bg-lime-600 bg-teal-600 bg-blue-600 bg-purple-600 bg-yellow-950 fill-lime-600 fill-teal-600 fill-blue-600 fill-purple-600 fill-yellow-950"
 
   const checkboxes = [
-    { id: 'windows', label: 'Windows', idPrefix: 'windowRepair', color: 'green-500' },
-    { id: 'decks', label: 'Decks', idPrefix: 'deckRepair', color: 'pink-500' },
-    { id: 'roofs', label: 'Roofs', idPrefix: 'roofRepair', color: 'red-500' },
-    { id: 'reportedLeaks', label: 'Reported Leaks', idPrefix: 'leakRepair', color: 'blue-500' },
+    { id: 'windows', label: 'Windows', idPrefix: 'windowRepair', color: 'lime-600' },
+    { id: 'decks', label: 'Decks', idPrefix: 'deckRepair', color: 'teal-600' },
+    { id: 'roofs', label: 'Roofs', idPrefix: 'roofRepair', color: 'yellow-950' },
+    { id: 'reportedLeaks', label: 'Reported Leaks', idPrefix: 'leakRepair', color: 'blue-600' },
   ];
 
   const checkboxes2 = [
-    { id: 'dtLocations', label: 'locations', idPrefix: 'edgDTlocations', color: 'purple-500' }
+    { id: 'dtLocations', label: 'locations', idPrefix: 'edgDTlocations', color: 'purple-600' }
   ];
 
   useEffect(() => {
