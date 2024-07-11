@@ -84,7 +84,7 @@ const PanZoomSVG = ({ selectedCategory }) => {
       case 2:
         return ['fill-orange-500'];
       case 3:
-        return ['fill-red-500'];
+        return ['fill-red-600'];
       default:
         return [];
     }
@@ -97,7 +97,7 @@ const PanZoomSVG = ({ selectedCategory }) => {
       case 2:
         return 'hover:fill-orange-700';
       case 3:
-        return 'hover:fill-red-700';
+        return 'hover:fill-red-800';
       default:
         return '';
     }
