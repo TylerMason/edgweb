@@ -77,7 +77,7 @@ const CheckBoxGroup = ({ checkboxes, parentLabel, groupKey }) => {
             {checkboxes.map((checkbox) => (
               <label
                 key={checkbox.id}
-                className={`flex items-center p-0.5 rounded-lg transform transition-transform duration-150 hover:translate-y-1 ${getChildBgClass(checkbox.id)}`}
+                className={`flex items-center p-1.5 rounded-lg transform transition-transform duration-150 hover:translate-y-1 ${getChildBgClass(checkbox.id)}`}
               >
                 <input
                   type="checkbox"
