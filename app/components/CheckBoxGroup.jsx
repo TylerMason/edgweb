@@ -1,38 +1,26 @@
 // app/components/CheckBoxGroup.jsx
 import React, { useState, useEffect } from 'react';
 
-const CheckBoxGroup = () => {
-  const [parentChecked, setParentChecked] = useState(false);
-  const [childChecked, setChildChecked] = useState({
-    child1: false,
-    child2: false,
-    child3: false,
-    child4: false,
+const CheckBoxGroup = ({ checkboxes, parentLabel, groupKey }) => {
+  const [childChecked, setChildChecked] = useState(() => {
+    const savedChildChecked = JSON.parse(localStorage.getItem(`childChecked_${groupKey}`)) || {};
+    const initialChildChecked = {};
+    checkboxes.forEach((checkbox) => {
+      initialChildChecked[checkbox.id] = savedChildChecked[checkbox.id] || false;
+    });
+    return initialChildChecked;
   });
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
+    localStorage.setItem(`childChecked_${groupKey}`, JSON.stringify(childChecked));
     updateSVGElements();
   }, [childChecked]);
 
-  const handleParentChange = () => {
-    const newChecked = !parentChecked;
-    setParentChecked(newChecked);
-    setIsOpen(newChecked); // Open the dropdown if parent checkbox is checked
-
-    const newChildChecked = {
-      child1: newChecked,
-      child2: newChecked,
-      child3: newChecked,
-      child4: newChecked,
-    };
-    setChildChecked(newChildChecked);
-  };
-
-  const handleChildChange = (child) => {
+  const handleChildChange = (childId) => {
     const newChildChecked = {
       ...childChecked,
-      [child]: !childChecked[child],
+      [childId]: !childChecked[childId],
     };
     setChildChecked(newChildChecked);
   };
@@ -42,19 +30,24 @@ const CheckBoxGroup = () => {
   };
 
   const updateSVGElements = () => {
-    const svgElements = document.querySelectorAll('svg [id^="windowRepair"]');
-    svgElements.forEach((element) => {
-      if (childChecked.child1) {
-        element.classList.add('fill-green-500', 'opacity-50');
-      } else {
-        element.classList.remove('fill-green-500', 'opacity-50');
-      }
+    checkboxes.forEach((config) => {
+      const svgElements = document.querySelectorAll(`svg [id^="${config.idPrefix}"]`);
+      svgElements.forEach((element) => {
+        const fillString = `fill-${config.color}`;
+        if (childChecked[config.id]) {
+          element.classList.add(fillString, 'opacity-50');
+        } else {
+          element.classList.remove(fillString, 'opacity-50');
+        }
+      });
     });
   };
 
-  const getChildBgClass = (child) => {
-    if (child === 'child1' && childChecked[child]) {
-      return 'bg-green-500 bg-opacity-50';
+  const getChildBgClass = (childId) => {
+    const checkbox = checkboxes.find(cb => cb.id === childId);
+    if (checkbox && childChecked[childId]) {
+      const bgString = `bg-${checkbox.color} bg-opacity-70`;
+      return bgString;
     }
     return 'bg-gray-100';
   };
@@ -62,15 +55,9 @@ const CheckBoxGroup = () => {
   return (
     <div className="flex flex-col items-center">
       <div className="w-full max-w-xs bg-white rounded-lg shadow-md p-4">
-        <div className="flex items-center justify-between cursor-default" onClick={handleParentChange}>
-          <input
-            type="checkbox"
-            checked={parentChecked}
-            onChange={handleParentChange}
-            className="mr-2"
-          />
-          <div onClick={toggleDropdown}>Builder Repair Locations</div>
-          <span className={`transform transition-transform ${isOpen ? 'rotate-180' : 'rotate-0'}`} onClick={toggleDropdown}>
+        <div className="flex items-center justify-between cursor-pointer" onClick={toggleDropdown}>
+          <div>{parentLabel}</div>
+          <span className={`transform transition-transform ${isOpen ? 'rotate-180' : 'rotate-0'}`}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"
@@ -87,42 +74,20 @@ const CheckBoxGroup = () => {
         </div>
         {isOpen && (
           <div className="mt-4 ml-4 space-y-2">
-            <label className={`flex items-center p-0.5 px-1 rounded-lg transform transition-transform duration-150 hover:translate-y-1 ${getChildBgClass('child1')}`}>
-              <input
-                type="checkbox"
-                checked={childChecked.child1}
-                onChange={() => handleChildChange('child1')}
-                className="mr-2"
-              />
-              Windows
-            </label>
-            <label className={`flex items-center p-0.5 rounded-lg transform transition-transform duration-150 hover:translate-y-1 ${getChildBgClass('child2')}`}>
-              <input
-                type="checkbox"
-                checked={childChecked.child2}
-                onChange={() => handleChildChange('child2')}
-                className="mr-2"
-              />
-              Decks
-            </label>
-            <label className={`flex items-center p-0.5 rounded-lg transform transition-transform duration-150 hover:translate-y-1 ${getChildBgClass('child3')}`}>
-              <input
-                type="checkbox"
-                checked={childChecked.child3}
-                onChange={() => handleChildChange('child3')}
-                className="mr-2"
-              />
-              Roofs
-            </label>
-            <label className={`flex items-center p-0.5 rounded-lg transform transition-transform duration-150 hover:translate-y-1 ${getChildBgClass('child4')}`}>
-              <input
-                type="checkbox"
-                checked={childChecked.child4}
-                onChange={() => handleChildChange('child4')}
-                className="mr-2"
-              />
-              Reported Leaks
-            </label>
+            {checkboxes.map((checkbox) => (
+              <label
+                key={checkbox.id}
+                className={`flex items-center p-0.5 rounded-lg transform transition-transform duration-150 hover:translate-y-1 ${getChildBgClass(checkbox.id)}`}
+              >
+                <input
+                  type="checkbox"
+                  checked={childChecked[checkbox.id]}
+                  onChange={() => handleChildChange(checkbox.id)}
+                  className="mr-2"
+                />
+                {checkbox.label}
+              </label>
+            ))}
           </div>
         )}
       </div>
