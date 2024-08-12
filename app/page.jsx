@@ -21,11 +21,11 @@ export default function HomePage() {
     { id: 'decks', label: 'Decks', idPrefix: 'deckRepair', color: 'teal-600' },
     { id: 'roofs', label: 'Roofs', idPrefix: 'roofRepair', color: 'yellow-950' },
     { id: 'reportedLeaks', label: 'Reported Leaks', idPrefix: 'leakRepair', color: 'blue-600' },
+    { id: 'dtLocations', label: 'DT locations', idPrefix: 'edgDTlocations', color: 'purple-600' },
+    { id: 'milgardGroup', label: 'Milgard Repairs', idPrefix: 'milgardGroup', color: 'purple-600' }
   ];
 
-  const checkboxes2 = [
-    { id: 'dtLocations', label: 'locations', idPrefix: 'edgDTlocations', color: 'purple-600' }
-  ];
+  
 
   useEffect(() => {
     if (status === 'unauthenticated') {
@@ -61,7 +61,7 @@ export default function HomePage() {
             {/* Dummy hyperlinks and CheckBoxGroup */}
             <div className="flex flex-col items-center text-center space-y-6">
               <CheckBoxGroup checkboxes={checkboxes} parentLabel="Builder Repair Locations" groupKey="builderRepair" /> {/* Pass the checkboxes and parentLabel props here */}
-              <CheckBoxGroup checkboxes={checkboxes2} parentLabel="Destructive Testing" groupKey="dtLocations" />
+              {/*<CheckBoxGroup checkboxes={checkboxes2} parentLabel="Destructive Testing" groupKey="dtLocations" /> */}
             </div>
           </div>
 
