@@ -55,24 +55,10 @@ const CheckBoxGroup = ({ checkboxes, parentLabel, groupKey }) => {
   return (
     <div className="flex flex-col items-center">
       <div className="w-full max-w-xs bg-white rounded-lg shadow-md p-4">
-        <div className="flex items-center justify-between cursor-pointer" onClick={toggleDropdown}>
+        <div className="flex items-center justify-between cursor-default" >
           <div>{parentLabel}</div>
-          <span className={`transform transition-transform ${isOpen ? 'rotate-180' : 'rotate-0'}`}>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-            >
-              <path
-                fillRule="evenodd"
-                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 111.414 1.414l-4 4a1 1 01-1.414 0l-4-4a1 1 010-1.414z"
-                clipRule="evenodd"
-              />
-            </svg>
-          </span>
         </div>
-        {isOpen && (
+        {(
           <div className="mt-4 ml-4 space-y-2">
             {checkboxes.map((checkbox) => (
               <label
