@@ -14,7 +14,7 @@ export default function HomePage() {
   const router = useRouter();
   const [selectedCategory, setSelectedCategory] = useState(null);
 
-  let colours = "bg-lime-600 bg-teal-600 bg-blue-600 bg-purple-600 bg-yellow-950 fill-lime-600 fill-teal-600 fill-blue-600 fill-purple-600 fill-yellow-950"
+  let colours = "bg-lime-600 bg-teal-600 bg-blue-600 bg-purple-600 bg-yellow-950 bg-emerald-950 fill-emerald-950 fill-lime-600 fill-teal-600 fill-blue-600 fill-purple-600 fill-yellow-950"
 
   const checkboxes = [
     { id: 'windows', label: 'Windows', idPrefix: 'windowRepair', color: 'lime-600' },
@@ -22,7 +22,7 @@ export default function HomePage() {
     { id: 'roofs', label: 'Roofs', idPrefix: 'roofRepair', color: 'yellow-950' },
     { id: 'reportedLeaks', label: 'Reported Leaks', idPrefix: 'leakRepair', color: 'blue-600' },
     { id: 'dtLocations', label: 'DT locations', idPrefix: 'edgDTlocations', color: 'purple-600' },
-    { id: 'milgardGroup', label: 'Milgard Repairs', idPrefix: 'milgardGroup', color: 'purple-600' }
+    { id: 'milgardGroup', label: 'Milgard Repairs', idPrefix: 'milgardGroup', color: 'emerald-950' }
   ];
 
   
